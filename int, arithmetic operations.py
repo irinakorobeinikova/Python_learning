@@ -20,8 +20,8 @@ b = int(input())
 print((3 * ((a + b)**3)) + (275 * (b**2)) - (127*a) - 41)
 
 a = int(input())
-print('Following', a, 'number:', a + 1)
-print('For number', a, 'previous number:', a - 1)
+print('Following', a, 'digital:', a + 1)
+print('For number', a, 'previous digital:', a - 1)
 
 screen_cost = int(input())
 processor_cost = int(input())
@@ -60,6 +60,24 @@ n = int(input())
 k = int(input())
 print(k // n)
 print(k % n)
+
+n = int(input())
+print(n % 2 + n // 2)
+
+place = int(input())
+print((place + 3) // 4)
+
+min = int(input())
+hour = min // 60
+min_r = min % 60
+print(min, 'minute', '-', 'is', hour, 'hour', min_r, 'minute.')
+
+num = int(input())
+digit3 = num % 10
+digit2 = (num // 10) % 10
+digit1 = num // 100
+print('Sum =', digit3 + digit2 + digit1)
+print('multiply =', digit3 * digit2 * digit1)
 
 
 
