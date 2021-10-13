@@ -47,5 +47,19 @@ print(an)
 x = int(input())
 print(x, 2*x, 3*x, 4*x, 5*x, sep=('---'))
 
+b1 = int(input())
+q = int(input())
+n = int(input())
+bn = b1 * q ** (n - 1)
+print(bn)
+
+sm = int(input())
+print(sm // 100)
+
+n = int(input())
+k = int(input())
+print(k // n)
+print(k % n)
+
 
 
