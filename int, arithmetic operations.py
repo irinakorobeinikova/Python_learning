@@ -20,8 +20,8 @@ b = int(input())
 print((3 * ((a + b)**3)) + (275 * (b**2)) - (127*a) - 41)
 
 a = int(input())
-print('Following', a, 'digital:', a + 1)
-print('For number', a, 'previous digital:', a - 1)
+print('Following', a, 'digit:', a + 1)
+print('For digit', a, 'previous digit:', a - 1)
 
 screen_cost = int(input())
 processor_cost = int(input())
@@ -79,5 +79,14 @@ digit1 = num // 100
 print('Sum =', digit3 + digit2 + digit1)
 print('multiply =', digit3 * digit2 * digit1)
 
+num = int(input())
+a = num % 10
+b = (num // 10) % 10
+c = (num // 100) % 10
+d = (num // 1000) % 10
+print('The figure in the thousands position is equal to', d)
+print('The number in the hundreds position is equal to', c)
+print('The digit in the tens position is equal to', b)
+print('The digit in the position of units is equal to', a)
 
 
