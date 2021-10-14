@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f25b2c-44e1-40c0-b90a-ea34fadb6bb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QA_Paython/data_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_stepik_course/print, input, sep, end, variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_stepik_course/print, input, sep, end, variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_stepik_exam/exam_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_stepik_exam/exam_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_Paython/data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/QA_Paython/data_types.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +33,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python_stepik_course" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irina\git\Python_learning\Python_stepik_course" />
       <recent name="C:\Users\irina\git\Python_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_types">
+  <component name="RunManager" selected="Python.print, input, sep, end, variables (1)">
     <configuration name="data_types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.print, input, sep, end, variables (1)" />
         <item itemvalue="Python.data_types" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.int, math operations" />
-        <item itemvalue="Python.print, input, sep, end, variables (1)" />
         <item itemvalue="Python.exam_1" />
       </list>
     </recent_temporary>

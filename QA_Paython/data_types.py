@@ -20,6 +20,3 @@ print(x, type(x)) # 5.0 <class 'float'>
 
 x = 5
 print(x, type(x) # # 5.0 <class 'int'>
-
-
-

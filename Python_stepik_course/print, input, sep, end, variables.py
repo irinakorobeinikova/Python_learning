@@ -26,14 +26,14 @@ print(param_2)
 print(param_3)
 
 # sep, end, variables, PEP 8
-print('I', 'like', 'Python', sep='***')
+print('I', 'like', 'Python', sep = '***')
 
 param_0 = input()
 param_1 = input()
 param_2 = input()
 param_3 = input()
-print(param_1, param_2, param_3, sep=param_0)
+print(param_1, param_2, param_3, sep = param_0)
 
 name = input()
-print('Hello,', name, end='!')
+print('Hello,', name, end ='!')
 
