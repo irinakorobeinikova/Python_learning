@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f25b2c-44e1-40c0-b90a-ea34fadb6bb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_stepik_course/and, or, not.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_stepik_course/int, float, max, min, abs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_stepik_course/math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_stepik_course/str, len, in.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_stepik_course/for, while.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_stepik_course/for, while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_stepik_course/if, else.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_stepik_course/if, elif, else.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
       <recent name="C:\Users\irina\git\Python_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.and, or, not">
+  <component name="RunManager" selected="Python.for, while">
     <configuration name="and, or, not" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="if, else" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="if, elif, else" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -115,7 +119,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_stepik_course/if, else.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\irina\git\Python_learning\Python_stepik_course\if, elif, else.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.and, or, not" />
-        <item itemvalue="Python.if, else" />
         <item itemvalue="Python.for, while" />
+        <item itemvalue="Python.and, or, not" />
+        <item itemvalue="Python.if, elif, else" />
         <item itemvalue="Python.print, input, sep, end, variables (1)" />
         <item itemvalue="Python.data_types" />
       </list>
