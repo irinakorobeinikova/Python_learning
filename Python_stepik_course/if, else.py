@@ -22,3 +22,28 @@ if digit1 + digit4 == digit2 - digit3:
     print('YES')
 else:
     print('NO')
+
+
+access = int(input())
+if access >= 18:
+    print('Access is allowed')
+else:
+    print('Access denied')
+
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+if num2 - num1 == num3 - num2:
+    print('YES')
+else:
+    print('NO')
+
+
+a = int(input())
+b = int(input())
+if a < b:
+    print(a)
+else:
+    print(b)
+
