@@ -47,3 +47,46 @@ if a < b:
 else:
     print(b)
 
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if a > b:
+    a = b
+if c > d:
+    c = d
+if a < c:
+    print(a)
+else:
+    print(c)
+
+
+age = int(input())
+if age <= 13:
+    print('childhood')
+if 14 <= age <= 24:
+    print('youth')
+if 25 <= age <= 59:
+    print('maturity')
+if age >= 60:
+    print('old age')
+
+
+a = int(input())
+b = int(input())
+c = int(input())
+if a > 0:
+    a = a
+else:
+    a = 0
+if b > 0:
+    b = b
+else:
+    b = 0
+if c > 0:
+    c = c
+else:
+    c = 0
+result = a + b + c
+print(result)
