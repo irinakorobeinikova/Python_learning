@@ -35,5 +35,28 @@ else:
     print('NO')
 
 
+year = int(input())
+if (year % 4 == 0 and not year % 100 == 0) or year % 400 == 0:
+    print('YES')
+else:
+    print('NO')
 
 
+row1 = int(input())
+block1 = int(input())
+row2 = int(input())
+block2 = int(input())
+if (row1 != row2 and block1 == block2) or (row1 == row2 and block1 != block2):
+    print('YES')
+else:
+    print('NO')
+
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if -1 <= a - c <= 1 and -1 <= b - d <= 1:
+    print('YES')
+else:
+    print('NO')
