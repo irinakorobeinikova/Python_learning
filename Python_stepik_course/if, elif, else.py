@@ -1,3 +1,4 @@
+#if, else
 qwerty1 = input()
 qwerty2 = input()
 if qwerty1 == qwerty2:
@@ -90,3 +91,32 @@ else:
     c = 0
 result = a + b + c
 print(result)
+
+
+#elif
+n, k = int(input()),int(input())
+if n > k:
+    print('NO')
+elif k > n:
+    print('YES')
+else:
+    print("Don't know")
+
+
+a, b, c = int(input()), int(input()), int(input())
+if a == b == c:
+    print('Equilateral triangle')
+elif (a == b != c) or (b == c != a) or (a == c != b):
+    print('Isosceles triangle')
+else:
+    print('Versatile triangle')
+
+
+a, b, c = int(input()), int(input()), int(input())
+if a < b < c or a > b > c:
+    print(b)
+elif b < a < c or b > a > c:
+    print(a)
+elif a < c < b or a > c > b:
+    print(c)
+
