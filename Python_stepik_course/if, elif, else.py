@@ -154,3 +154,43 @@ elif slash == ('/') and num2 == 0:
     print('You cannot divide by zero!')
 else:
     print('Invalid operation')
+
+
+color1 = input()
+color2 = input()
+if (color1 == 'red' and color2 == 'blue') or (color2 == 'red' and color1 == 'blue'):
+    print('purple')
+elif (color1 =='red' and color2 == 'yellow') or (color2 =='red' and color1 == 'yellow'):
+    print('orange')
+elif (color1 == 'blue' and color2 == 'yellow') or (color2 == 'blue' and color1 == 'yellow'):
+    print('green')
+elif color1 == color2 and (color1 == 'red' or color1 == 'blue' or color1 == 'yellow'):
+    print(color1)
+elif color1 == color2 and (color1 != 'red' or color1 != 'blue' or color1 != 'yellow'):
+    print('wrong color')
+else:
+    print('wrong color')
+
+
+n = int(input())
+if n == 0:
+   print('green')
+elif 1 <= n <= 10 and n % 2:
+    print('red')
+elif 1 <= n <= 10 and n % 2 == 0:
+    print('black')
+elif 11 <= n <= 18 and n % 2:
+    print('black')
+elif 11 <= n <= 18 and n % 2 == 0:
+    print('red')
+elif 19 <= n <= 28 and n % 2:
+    print('red')
+elif 19 <= n <= 28 and n % 2 == 0:
+    print('black')
+elif 29 <= n <= 36 and n % 2:
+    print('black')
+elif 29 <= n <= 36 and n % 2 == 0:
+    print('red')
+elif n > 36 or n < 0:
+    print('input error')
+
