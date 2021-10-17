@@ -50,4 +50,27 @@ else:
     print('wrong')
 
 
+num = int(input())
+if num % 2 != 0:
+    print('YES')
+elif num % 2 == 0 and 2 <= num <= 5:
+    print('NO')
+elif num % 2 == 0 and 6 <= num <= 20:
+    print('YES')
+elif num % 2 == 0 and num > 20:
+    print('NO')
+
+
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if a1 + b1 == a2 + b2:
+    print('YES')
+elif a1 - b1 == a2 - b2:
+    print('YES')
+else:
+    print('NO')
+
+
 
