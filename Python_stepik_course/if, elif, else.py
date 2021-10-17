@@ -120,3 +120,37 @@ elif b < a < c or b > a > c:
 elif a < c < b or a > c > b:
     print(c)
 
+
+month = int(input())
+if month == 4 or month == 6 or month == 9 or month == 11:
+    print(30)
+elif month == 2:
+    print(28)
+else:
+    print(31)
+
+
+weight = int(input())
+if weight < 60:
+    print('Light weight')
+elif 60 <= weight < 64:
+    print('First average weight')
+elif 64 <= weight < 69:
+    print('Average weight')
+
+
+num1 = int(input())
+num2 = int(input())
+slash = input()
+if slash == ('+'):
+    print(num1 + num2)
+elif slash == ('-'):
+    print(num1 - num2)
+elif slash == ('*'):
+    print(num1 * num2)
+elif slash == ('/') and num2 != 0:
+    print(num1 / num2)
+elif slash == ('/') and num2 == 0:
+    print('You cannot divide by zero!')
+else:
+    print('Invalid operation')
