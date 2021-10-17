@@ -23,3 +23,18 @@ c = 5/9 * (f - 32)
 print(c)
 
 
+n = float(input())
+if n <= 2:
+    print(10.5 * n)
+elif n > 2:
+    print(4 * (n - 2) + (10.5 * 2))
+
+
+n = float(input())
+a = int(n)
+c = (n - a) * 10
+print (int(c))
+
+
+
+
