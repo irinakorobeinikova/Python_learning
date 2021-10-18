@@ -31,3 +31,8 @@ from math import *
 x = radians(float(input()))
 p = sin(x) + cos(x) + tan(x) ** 2
 print(p)
+
+
+x = float(input())
+from math import *
+print(ceil(x) + floor(x))
