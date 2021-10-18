@@ -68,6 +68,18 @@ else:
     print('The number is not interesting')
 
 
+a1, a2, a3, a4, a5 = float(input()), float(input()), float(input()), float(input()), float(input())
+print(abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5))
+
+
+p1 = int(input())
+p2 = int(input())
+q1 = int(input())
+q2 = int(input())
+print(abs(p1-q1) + abs(p2-q2))
+
+
+
 
 
 
