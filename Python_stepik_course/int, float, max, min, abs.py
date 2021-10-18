@@ -50,5 +50,24 @@ print('The lowest number =', min(a, b, c, d, e))
 print('The biggest number =', max(a, b, c, d, e))
 
 
+a = int(input())
+b = int(input())
+c = int(input())
+print(max(a, b, c))
+print((a+b+c)-max(a, b, c)-min(a, b, c))
+print(min(a, b, c))
+
+
+num = int(input())
+a = num % 10
+b = (num % 100) // 10
+c = num // 100
+if (max(a, b, c) - min(a, b, c) == (a + b + c) - max(a, b, c) - min(a, b, c)):
+    print('The number is interesting')
+else:
+    print('The number is not interesting')
+
+
+
 
 
