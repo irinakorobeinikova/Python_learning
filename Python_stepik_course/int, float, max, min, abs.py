@@ -36,5 +36,19 @@ c = (n - a) * 10
 print (int(c))
 
 
+n = float(input())
+a = int(n)
+print(n - a)
+
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print('The lowest number =', min(a, b, c, d, e))
+print('The biggest number =', max(a, b, c, d, e))
+
+
 
 
