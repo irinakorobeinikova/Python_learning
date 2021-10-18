@@ -27,3 +27,7 @@ print(s_gr)
 print(s_kv)
 
 
+from math import *
+x = radians(float(input()))
+p = sin(x) + cos(x) + tan(x) ** 2
+print(p)
