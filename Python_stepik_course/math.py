@@ -50,3 +50,11 @@ elif d > 0:
     x2 = (-b - math.sqrt(d)) / (2 * a)
     print(min(x1, x2), max(x1, x2), sep = '\n')
 
+
+from math import *
+n = int(input())
+n = float(n)
+a = float(input())
+s = (n * a ** 2) / (4 * tan(pi / n))
+print(s)
+
