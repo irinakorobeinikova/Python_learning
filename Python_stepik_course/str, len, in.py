@@ -56,3 +56,10 @@ if 'saturday' in s or 'sunday' in s:
     print('YES')
 else:
     print('NO')
+
+
+email = str(input())
+if '@' in email and '.' in email:
+    print('YES')
+else:
+    print('NO')
