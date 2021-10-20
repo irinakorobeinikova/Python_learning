@@ -44,4 +44,9 @@ else:
     print('NO')
 
 
+s = str(input())
+if 'blue' in s:
+    print('YES')
+else:
+    print('NO')
 
