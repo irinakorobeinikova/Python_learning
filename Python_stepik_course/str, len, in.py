@@ -50,3 +50,9 @@ if 'blue' in s:
 else:
     print('NO')
 
+
+s = str(input())
+if 'saturday' in s or 'sunday' in s:
+    print('YES')
+else:
+    print('NO')
