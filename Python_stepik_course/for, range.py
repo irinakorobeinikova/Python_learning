@@ -37,3 +37,10 @@ n = int(input())
 n >= 2
 for i in range(n):
     print((n - i) * '*')
+
+
+m = int(input())
+p = int(input())
+n = int(input())
+for i in range(n):
+    print(i + 1, m * (1 + p / 100) ** i)
