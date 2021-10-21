@@ -21,3 +21,8 @@ print('G')
 x = int(input())
 for i in range(x):
     print('*******************')
+
+
+text = input()
+for i in range(10):
+    print(i, text)
