@@ -16,3 +16,8 @@ print('E')
 for i in range(9):
     print('TTTTT')
 print('G')
+
+
+x = int(input())
+for i in range(x):
+    print('*******************')
