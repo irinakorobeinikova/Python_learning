@@ -26,3 +26,8 @@ for i in range(x):
 text = input()
 for i in range(10):
     print(i, text)
+
+
+n = int(input())
+for i in range(n + 1):
+    print('The square of the number', i, 'equal to', i ** 2)
