@@ -31,3 +31,9 @@ for i in range(10):
 n = int(input())
 for i in range(n + 1):
     print('The square of the number', i, 'equal to', i ** 2)
+
+
+n = int(input())
+n >= 2
+for i in range(n):
+    print((n - i) * '*')
