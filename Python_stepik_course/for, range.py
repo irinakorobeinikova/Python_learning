@@ -44,3 +44,12 @@ p = int(input())
 n = int(input())
 for i in range(n):
     print(i + 1, m * (1 + p / 100) ** i)
+
+
+m = int(input())
+n = int(input())
+m <= n
+for i in range(m, n+1):
+    print(i)
+
+
