@@ -53,3 +53,11 @@ for i in range(m, n+1):
     print(i)
 
 
+m = int(input())
+n = int(input())
+for i in range(m, n+1, 1):
+    if m < n:
+        print(i)
+for i in range(m, n-1, - 1):
+    if m >= n:
+        print(i)
