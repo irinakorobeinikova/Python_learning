@@ -61,3 +61,10 @@ for i in range(m, n+1, 1):
 for i in range(m, n-1, - 1):
     if m >= n:
         print(i)
+
+
+m = int(input())
+n = int(input())
+for i in range(m, n-1, - 1):
+    if m > n and i % 2 != 0:
+        print(i)
