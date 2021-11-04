@@ -13,3 +13,11 @@ for i in range(n):
     num = int(input())
     total = total + num
 print(total)
+
+
+from math import *
+counter = 0
+n = int(input())
+for i in range(1, n + 1):
+    counter = counter + 1/i
+print(counter - log(n))
