@@ -97,3 +97,5 @@ print('b_item_result_multi =', b_item_result_multi)    # 55) output b_item_resul
 b_item_1_int = int(b_item_t)     # 58) create variable b_item_1_int and assign the resultant value to a variable
 print('b_item_1_int =', b_item_1_int)    # 59) output b_item_1_int to the console
 
+b_item_2_int = int(b_item_f)     # 58) create variable b_item_2_int and assign the resultant value to a variable
+print('b_item_2_int =', b_item_2_int)    # 59) output b_item_2_int to the console
