@@ -14,13 +14,21 @@ result_exp = item_1 ** item_2    # 9) create variable result_exp and raise item_
 print('result_exp =', result_exp)    # 10) output result_exp to the console
 
 import math
-item_1 **= item_2
-result_m_exp = item_1    # 11) create vС result_m_exp and raise item_1 to the power of item_2 using the Pycharm library
+#item_1 **= item_2
+result_m_exp = math.pow(item_1, item_2)    # 11) create variable result_m_exp and raise item_1 to the power of item_2 using math from library
 print('result_m_exp =', result_m_exp)    # 12) output result_m_exp to the console
-#item_1 = 7
 
-result_s_root = item_1    # 13) create variable result_s_root and find the square root of the variable item_1, item_2
+result_s_root = item_2 ** (0.5)  # 13) create variable result_s_root and find the square root of the variable item_1, item_2
 print('result_s_root =', result_s_root)    # 14) output result_s_root to the console
+
+import math
+result_s_root = math.sqrt(item_2)  # 15) create variable result_s_root and find the square root of the variable item_1, item_2 using math from library
+print('result_s_root =', result_s_root)    # 16) output result_s_root to the console
+
+import math
+result_mp_s_root = math.pow(item_2, 0.5)  # 15) create variable result_mp_s_root and find the square root of the variable item_1, item_2 using math.pow from library
+print('result_mp_s_root =', result_mp_s_root)    # 16) output result_mp_s_root to the console
+
 
 
 
