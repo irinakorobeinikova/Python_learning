@@ -7,7 +7,7 @@ print('result_sum =', result_sum)    # 4) output result_sum to the console
 result_subtr = item_1 - item_2    # 5) create variable result_subtr and subtract the larger variable from the smaller one
 print('result_subtr =', result_subtr)    # 6) output result_subtr to the console
 
-result_multi = item_1 * item_2    # 7) create variable result_multi and multiply the variables item_1, item_2
+result_multi = item_1 * item_2    # 7) create variable result_multi and multiply by the variables item_1, item_2
 print('result_multi =', result_multi)    # 8) output result_multi to the console
 
 result_exp = item_1 ** item_2    # 9) create variable result_exp and raise item_1 to the power of item_2
@@ -57,11 +57,14 @@ print('result_division_loss =', result_division_loss)    # 32) output result_div
 
 item_3 = 12     # 33) create variable item_3 of type integer
 
+item_3 += 10     # 34) add 10 to item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 35) output item_3 to the console
 
+item_3 -= 5     # 36) subtract 5 from item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 37) output item_3 to the console
 
-#print('item_3 =', item_3)    # 34) output result_division_loss to the console
-
-
+item_3 *= 3     # 38) multiplay 3 by item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 39) output item_3 to the console
 
 
 
