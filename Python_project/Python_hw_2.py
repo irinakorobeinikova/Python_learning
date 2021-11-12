@@ -55,7 +55,7 @@ result_division_loss = item_1 % item_2     # 31) create variable result_division
                                                # and divide item_1 to item_2 to find remains
 print('result_division_loss =', result_division_loss)    # 32) output result_division_loss to the console
 
-item_3 = 12     # 33) create variable item_3 of type integer
+item_3 = 3     # 33) create variable item_3 of type integer
 
 item_3 += 10     # 34) add 10 to item_3 and assign the resultant value to a variable
 print('item_3 =', item_3)    # 35) output item_3 to the console
@@ -66,6 +66,11 @@ print('item_3 =', item_3)    # 37) output item_3 to the console
 item_3 *= 3     # 38) multiplay 3 by item_3 and assign the resultant value to a variable
 print('item_3 =', item_3)    # 39) output item_3 to the console
 
+item_3 /= 2     # 40) divide 3 by item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 41) output item_3 to the console
+
+item_3 **= 2     # 42) raise item_1 to the power of 3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 43) output item_3 to the console
 
 
 
