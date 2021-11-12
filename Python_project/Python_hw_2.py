@@ -36,11 +36,30 @@ result_division = item_1 / item_2   # 21) create variable result_division and di
 print('result_division =', result_division)    # 22) output result_division to the console
 
 import math
-result_m_floor = math.floor(result_division)    # 21) create variable result_m_floor and round it to the nearest number
-print('result_m_floor =', result_m_floor)    # 22) output result_m_floor to the console
+result_m_floor = math.floor(result_division)    # 23) create variable result_m_floor
+                                                # and round it to the nearest smaller number
+print('result_m_floor =', result_m_floor)    # 24) output result_m_floor to the console
+
+result_m_ceil = math.ceil(result_division)      # 25) create variable result_m_ceil
+                                                # and round it to the nearest larger number
+print('result_m_ceil =', result_m_ceil)    # 26) output result_m_ceil to the console
+
+result_int = int(result_division)     # 27) create variable result_int and round it to the nearest integer value
+print('result_int =', result_int)    # 28) output result_int to the console
+
+result_no_division_loss = item_1 // item_2     # 29) create variable result_no_division_loss
+                                               # and divide item_1 to item_2 without remains
+print('result_no_division_loss =', result_no_division_loss)    # 30) output result_no_division_loss to the console
+
+result_division_loss = item_1 % item_2     # 31) create variable result_division_loss
+                                               # and divide item_1 to item_2 to find remains
+print('result_division_loss =', result_division_loss)    # 32) output result_division_loss to the console
+
+item_3 = 12     # 33) create variable item_3 of type integer
 
 
 
+#print('item_3 =', item_3)    # 34) output result_division_loss to the console
 
 
 
