@@ -35,6 +35,12 @@ item_2 = 2     # 20) make a variable even
 result_division = item_1 / item_2   # 21) create variable result_division and divide item_1 to item_2
 print('result_division =', result_division)    # 22) output result_division to the console
 
+import math
+result_m_floor = math.floor(result_division)    # 21) create variable result_m_floor and round it to the nearest number
+print('result_m_floor =', result_m_floor)    # 22) output result_m_floor to the console
+
+
+
 
 
 
