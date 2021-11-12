@@ -78,10 +78,22 @@ print('item_3 =', item_3)    # 45) output item_3 to the console
 item_3 %= 5     # 46) divide item_1 to 3 to find remains the variable item_3 and assign the resultant value to a variable
 print('item_3 =', item_3)    # 47) output item_3 to the console
 
+b_item_t = True    # 48) create variable b_item_t and assign it True
+b_item_f = False   # 49) create variable b_item_t and assign it False
 
+b_item_result_sum = b_item_t + b_item_f     # 50) create variable b_item_result_sum and sum up b_item_t and b_item_f
+print('b_item_result_sum =', b_item_result_sum)    # 51) output b_item_result_sum to the console
 
+b_item_result_subtr = b_item_t - b_item_f     # 52) create variable b_item_result_subtr and subtract b_item_f from b_item_t
+print('b_item_result_subtr =', b_item_result_subtr)    # 53) output b_item_result_subtr to the console
 
+b_item_result_multi = b_item_t * b_item_f     # 54) create variable b_item_result_multi and multiplay b_item_t and b_item_f
+print('b_item_result_multi =', b_item_result_multi)    # 55) output b_item_result_multi to the console
 
+#b_item_result_division = b_item_t / b_item_f     # 56) create variable b_item_result_division, divide b_item_t to b_item_f
+                                                 # and get a fail result
+#print('b_item_result_division =', b_item_result_division)    # 57) output b_item_result_division to the console
 
-
+b_item_1_int = int(b_item_t)     # 58) create variable b_item_1_int and assign the resultant value to a variable
+print('b_item_1_int =', b_item_1_int)    # 59) output b_item_1_int to the console
 
