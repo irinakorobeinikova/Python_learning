@@ -18,11 +18,11 @@ import math
 result_m_exp = math.pow(item_1, item_2)    # 11) create variable result_m_exp and raise item_1 to the power of item_2 using math from library
 print('result_m_exp =', result_m_exp)    # 12) output result_m_exp to the console
 
-result_s_root = item_1 ** (0.5)  # 13) create variable result_s_root and find the square root of the variable item_1, item_2
+result_s_root = item_1 ** (0.5)  # 13) create variable result_s_root and find the square root of the variable item_1 or item_2
 print('result_s_root =', result_s_root)    # 14) output result_s_root to the console
 
 import math
-result_s_root = math.sqrt(item_1)  # 15) create variable result_s_root and find the square root of the variable item_1, item_2 using math from library
+result_s_root = math.sqrt(item_1)  # 15) create variable result_s_root and find the square root of the variable item_1 or item_2 using math from library
 print('result_s_root =', result_s_root)    # 16) output result_s_root to the console
 
 import math
@@ -71,6 +71,12 @@ print('item_3 =', item_3)    # 41) output item_3 to the console
 
 item_3 **= 2     # 42) raise item_1 to the power of 3 and assign the resultant value to a variable
 print('item_3 =', item_3)    # 43) output item_3 to the console
+
+item_3 **= (1./2)     # 44) find the square root of the variable item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 45) output item_3 to the console
+
+item_3 %= 5     # 46) divide item_1 to 3 to find remains the variable item_3 and assign the resultant value to a variable
+print('item_3 =', item_3)    # 47) output item_3 to the console
 
 
 
