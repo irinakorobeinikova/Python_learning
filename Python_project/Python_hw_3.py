@@ -15,4 +15,16 @@ chf_item = 'chf'     # todo 14)
 usd_chf_rate = 0.91     # todo 15)
 rub_item = 'rub'     # todo 16)
 usd_rub_rate = 71.88     # todo 17)
+byn_item = 'byn'     # todo 18)
+usd_byn_rate = 2.46     # todo 19)
 
+if mult_int > comp_item:     # todo 20)
+    print('mult_int more than comp_item')
+
+div_int = int_item / 2    # todo 21)
+if div_int < comp_item:     # todo 22)
+    print('div_in less than comp_item')
+
+item_1 = 10 + int_item
+if div_int < comp_item:     # todo 23)
+    print('div_in less than comp_item')
