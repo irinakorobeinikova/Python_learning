@@ -22,8 +22,7 @@ if multi_int > comp_item:     # todo 20)
     print('multi_int more than comp_item')
 
 div_int = int_item / 2    # todo 21)
-if div_int >= comp_item:     # todo 22
-else:
+if div_int >= comp_item:     # todo 22)
     print('div_in less than comp_item')
 
 item_1 = 10 + int_item    # todo 23)
@@ -31,4 +30,38 @@ if item_1 < comp_item:     # todo 24)
     print('item_1 less than comp_item')
 else:
     print('item_1 more or equal than comp_item')
+
+if item_2:     # todo 25)
+    print('item_2 =', item_2)
+else:
+    print('item_2 =', item_3)
+
+if item_3:     # todo 26)
+    print('item_3 =', item_2)
+else:
+    print('item_3 =', item_3)
+
+if item_5:     # todo 27)
+    print('item_5 =', item_5)
+else:
+    print('item_5 =', item_4)
+
+if item_4:     # todo 28)
+    print('item_4 =', item_5)
+else:
+    print('item_4 =', item_4)
+
+currency_convertor = item_2     # todo 29)
+    #todo 31
+
+
+#else: item_4:     # todo 30)
+    print('currency_convertor =', item_3)
+
+
+
+
+
+
+
 
