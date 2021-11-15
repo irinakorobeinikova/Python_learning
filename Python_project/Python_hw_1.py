@@ -20,5 +20,14 @@ print('ticket type =', type(ticket))    # todo 5) create variable item_1 of type
 
 card = (123456789, 'FGHJH1233' )
 print(card)
-print('card type =', type(card))    # todo 4) create variable item_1 of type Bytes
+print('card type =', type(card))    # todo 6) create variable item_1 of type Bytes
+
+phone = {89052445735, 'Irina'}
+print(phone)
+print('phone type =', type(phone))   # todo 7) create variable item_1 of type Set
+
+title = frozenset({'Hello students'})
+print(title)
+print('title type =', type(title))   # todo 8) create variable item_1 of type Frozenset
+
 
