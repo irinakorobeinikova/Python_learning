@@ -34,4 +34,6 @@ dict_emploees = dict({1:'name', 2:'lastname'})
 print(dict_emploees)
 print('dict_emploees type =', type(dict_emploees))    # todo 9) create variable item_1 of type Dict
 
+# todo 10) Output all the above variables to the console with the addition of the data type
+
 
