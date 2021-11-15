@@ -30,4 +30,8 @@ title = frozenset({'Hello students'})
 print(title)
 print('title type =', type(title))   # todo 8) create variable item_1 of type Frozenset
 
+dict_emploees = dict({1:'name', 2:'lastname'})
+print(dict_emploees)
+print('dict_emploees type =', type(dict_emploees))    # todo 9) create variable item_1 of type Dict
+
 
