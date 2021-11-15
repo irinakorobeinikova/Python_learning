@@ -66,3 +66,21 @@ if currency_convertor:  # todo 31
     elif target_currency == 'uah':  # todo 31.5.1)
         currency_result = target_currency_amount / usd_uah_rate
         print('target_currency_amount, uah_item =', currency_result, usd_item)
+
+    elif target_currency == 'chf':  # todo 31.5.2)
+        currency_result = target_currency_amount / usd_chf_rate
+        print('target_currency_amount, chf_item =', currency_result, usd_item)
+
+    elif target_currency == 'rub':  # todo 31.5.3)
+        currency_result = target_currency_amount / usd_rub_rate
+        print('target_currency_amount, rub_item =', currency_result, usd_item)
+
+    elif target_currency == 'byn':  # todo 31.5.4)
+        currency_result = target_currency_amount / usd_byn_rate
+        print('target_currency_amount, byn_item =', currency_result, usd_item)
+
+#    print('currency_convector =', item_3)
+
+# else: item_4:     # todo 30)
+# print('currency_convertor =', item_3)
+
