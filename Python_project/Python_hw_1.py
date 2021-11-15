@@ -13,3 +13,12 @@ print('weight type =', type(weight))    # todo 3) create variable item_1 of type
 b = bytes(b'What does it mean?')
 print(b)
 print('b =', type(b))   # todo 4) create variable item_1 of type Bytes
+
+ticket = [123, 456, 789]
+print(ticket)
+print('ticket type =', type(ticket))    # todo 5) create variable item_1 of type List
+
+card = (123456789, 'FGHJH1233' )
+print(card)
+print('card type =', type(card))    # todo 4) create variable item_1 of type Bytes
+
