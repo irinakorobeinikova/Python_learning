@@ -29,16 +29,29 @@ run = True    # todo 4)
 # for item in range(for_count, range_count):    # todo 10)
 #     print('Step =', item)     # todo 10.1)
 
-for item in range(0, 31):    # todo 11)
-    print('Step =', item)     # todo 11.1)
-    if item == 5:
-        print('item =', item)    # todo 11.2)
-        if item == 10:
-            print('item =', item)    # todo 11.3)
-            if item < 4:
-                print('item <', item)    # todo 11.4)
-                if item >=27:
-                    print('item >=', item)    # todo 11.5)
+# for item in range(0, 31):    # todo 11)
+#     print('Step =', item)     # todo 11.1)
+#     if item == 5:
+#         print('item =', item)    # todo 11.2)
+#         if item == 10:
+#             print('item =', item)    # todo 11.3)
+#             if item < 4:
+#                 print('item <', item)    # todo 11.4)
+#                 if item >=27:
+#                     print('item >=', item)    # todo 11.5)
+
+for item in range(0, range_count + 1):    # todo 12)
+    print('Step =', item)     # todo 12.1)
+    if item == 7:    # todo 12.2)
+        inner_count = 0
+        print('-- inner_count =', inner_count)
+        for inner_item in range(0, item):
+            print('--------- Inner_Step =', inner_item)
+            if inner_item == 5:
+                inner_count = inner_item
+inner_count = inner_count
+
+
 
 
 
