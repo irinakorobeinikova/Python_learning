@@ -26,13 +26,19 @@ run = True    # todo 4)
 #     if count == range_count:    # todo 9.3)
 #         print('STOP', count)
 
-for item in range(for_count, range_count):    # todo 10)
-    print('Step =', item)     # todo 10.1)
+# for item in range(for_count, range_count):    # todo 10)
+#     print('Step =', item)     # todo 10.1)
 
 for item in range(0, 31):    # todo 11)
     print('Step =', item)     # todo 11.1)
     if item == 5:
-        print('item =', item)
+        print('item =', item)    # todo 11.2)
+        if item == 10:
+            print('item =', item)    # todo 11.3)
+            if item < 4:
+                print('item <', item)    # todo 11.4)
+                if item >=27:
+                    print('item >=', item)    # todo 11.5)
 
 
 
