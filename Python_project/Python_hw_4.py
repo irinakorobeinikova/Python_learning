@@ -27,7 +27,12 @@ run = True    # todo 4)
 #         print('STOP', count)
 
 for item in range(for_count, range_count):    # todo 10)
-    print('Step =', item)     # todo 10)
+    print('Step =', item)     # todo 10.1)
+
+for item in range(0, 31):    # todo 11)
+    print('Step =', item)     # todo 11.1)
+    if item == 5:
+        print('item =', item)
 
 
 
