@@ -14,6 +14,14 @@ while count < range_count:  # todo 7)
     print('Step = ', count)    # todo 7.1)
     count += 1  # todo 7.2)
 
+while count < range_count:  # todo 8)
+    print('Step = ', count)    # todo 8.1)
+    count += 1  # todo 8.2)
+    if count == 3:    # todo 8.3)
+        print('Step =', count, 'If body')
+
+
+
 
 
 
