@@ -35,12 +35,15 @@
 # print('dict_emploees type =', type(dict_emploees))    # todo 9) create variable item_1 of type Dict
 #
 # # todo 10) Output all the above variables to the console with the addition of the data type
+#
+# param_1 = 'Good'    # todo 11)
+# param_2 = 'morning!'
+# param_3 = param_1 + ' ' + param_2
+# print(param_3)
 
-param_1 = 'Good'
-param_2 = 'morning!'
-param_3 = param_1 + ' ' + param_2
-print(param_3)
-
-
+age = '32'   # todo 12)
+age_word = 'years'
+result = age + ", " + age_word
+print(result)
 
 
