@@ -49,7 +49,7 @@ for item in range(0, range_count + 1):    # todo 12)
             print('--------- Inner_Step =', inner_item)
             if inner_item == 5:
                 inner_count = inner_item
-inner_count = inner_count
+        print('inner_count =', inner_count)
 
 
 
