@@ -1,5 +1,5 @@
-int_item = 10  # todo 1) create variable int_item of equal 10
-comp_item = 18  # todo 2) create variable comp_item of equal 18
+int_item = 10  # todo 1)
+comp_item = 18  # todo 2)
 multi_int = int_item * 2  # todo 3)
 item_2 = True  # todo 4)
 item_3 = False  # todo 5)
