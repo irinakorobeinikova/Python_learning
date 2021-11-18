@@ -21,12 +21,22 @@
 #     if i % 2 != 0:
 #         print('i =', i, 'odd')
 #
-list_for_five = [15, 62, 23, 45, 25, 47, 32, 5]    # todo 6)
-print(list_for_five)
+# list_for_five = [15, 62, 23, 45, 25, 47, 32, 5]    # todo 6)
+# print(list_for_five)
+#
+# for i in list_for_five:
+#     if i % 5 == 0:
+#         print('i =', i)
 
-for i in list_for_five:
+list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115]    # todo 6)
+print(list_count_five)
+
+counter = 0
+
+for i in list_count_five:
     if i % 5 == 0:
-        print('i =', i)
+        counter += 1
+print('counter =', counter)
 
 
 
