@@ -28,16 +28,19 @@
 #     if i % 5 == 0:
 #         print('i =', i)
 
-list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115]    # todo 6)
-print(list_count_five)
+# list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115]    # todo 7)
+# print(list_count_five)
+#
+# counter = 0
+#
+# for i in list_count_five:
+#     if i % 5 == 0:
+#         counter += 1
+# print('counter =', counter)
 
-counter = 0
-
-for i in list_count_five:
-    if i % 5 == 0:
-        counter += 1
-print('counter =', counter)
-
+from random import randint    # todo 8)
+for i in range(10):
+    print(randint(1, 100))
 
 
 
