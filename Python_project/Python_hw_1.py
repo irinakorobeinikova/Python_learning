@@ -18,7 +18,7 @@ ticket = [123, 456, 789]    # todo 5)
 print(ticket)
 print('ticket type =', type(ticket))
 
-card = (123456789, 'FGHJH1233' )    # todo 6)
+card = (123456789, 'FGHJH1233')    # todo 6)
 print(card)
 print('card type =', type(card))
 
