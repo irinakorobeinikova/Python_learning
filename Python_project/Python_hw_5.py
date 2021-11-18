@@ -14,6 +14,12 @@ for i in list_even:
     if i % 2 == 0:
         print('i =', i, 'even')
 
+list_odd = [1, 3, 14, 36, 25, 48, 93]    # todo 5)
+print(list_odd)
+
+for i in list_odd:
+    if i % 2 != 0:
+        print('i =', i, 'odd')
 
 
 
