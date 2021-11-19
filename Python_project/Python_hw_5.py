@@ -28,7 +28,7 @@
 #     if i % 5 == 0:
 #         print('i =', i)
 
-# list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115]    # todo 7)
+list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]    # todo 7)
 # print(list_count_five)
 #
 # counter = 0
@@ -38,16 +38,13 @@
 #         counter += 1
 # print('counter =', counter)
 
-from random import randint    # todo 8)
-for i in range(10):
-    print(randint(1, 100))
+# from random import randint    # todo 8)
+# for i in range(10):
+#     print(randint(1, 100))
 
-
-
-
-
-
-
+for i in range(0, len(list_count_five), 5):     # todo 9)
+    list_divide_several = list_count_five[i:i + 5]
+    print(list_divide_several)
 
 
 
