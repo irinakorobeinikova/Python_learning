@@ -42,10 +42,25 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # for i in range(10):
 #     print(randint(1, 100))
 
-for i in range(0, len(list_count_five), 5):     # todo 9)
-    list_divide_several = list_count_five[i:i + 5]
-    print(list_divide_several)
+# for i in range(0, len(list_count_five), 5):     # todo 9)
+#     list_divide_several = list_count_five[i:i + 5]
+#     print(list_divide_several)
+
+import time
+import names
+
+def test_1(param_1):
+    result = param_1 + 3
+    print('param_1 =', param_1)
+    print('result =', result)
+test_1(5)
+
+for i in range(0, 3):
+    user_name = names.get_full_name()
+
+    print(user_name)
 
 
-
-
+    # test_1(i)
+    # time.sleep(.500)
+    # print('===========================')
