@@ -66,14 +66,27 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # split_even_odd(list_count_five)
 
 
-import random    # todo 11)
-a = random.randint(0, 30)
-first_list = []
-second_list = []
-for i in range(0, a):
-    first_list.append(random.randint(0, 30))
-    second_list.append(random.randint(0, 30))
-print(first_list)
-print(second_list)
+# import random    # todo 11)
+# a = random.randint(0, 30)
+# first_l = []
+# second_l = []
+# for i in range(0, a):
+#     first_l.append(random.randint(0, 10))
+#     second_l.append(random.randint(0, 15))
+# print(first_l)
+# print(second_l)
 
+first_l = [5, 8, 0, 10, 1, 7, 5, 2, 9, 3, 1, 6, 7, 4, 8, 4, 6, 1, 3]
+second_l = [7, 15, 4, 9, 5, 6, 2, 5, 15, 14, 2, 9, 4, 10, 5, 14, 9, 5, 6]
 
+stars = []
+
+def different_num(first_l, second_l):
+
+    for i in first_l:
+        stars.append(i)
+        for i in second_l:
+            stars.append(i)
+    return stars
+
+different_num(first_l, second_l)
