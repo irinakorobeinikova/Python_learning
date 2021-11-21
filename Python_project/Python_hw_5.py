@@ -50,20 +50,30 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # print(list(func_generation(list_count_five, 5)))
 
 
-def split_even_odd(list_count_five):    # todo 10)
-    even_list = []
-    odd_list = []
-    for i in list_count_five:
-        if i % 2 == 0:
-            even_list.append(i)
-        else:
-            i % 2 != 0
-            odd_list.append(i)
-    print("Even lists:", even_list)
-    print("Odd lists:", odd_list)
+# def split_even_odd(list_count_five):    # todo 10)
+#     even_list = []
+#     odd_list = []
+#     for i in list_count_five:
+#         if i % 2 == 0:
+#             even_list.append(i)
+#         else:
+#             i % 2 != 0
+#             odd_list.append(i)
+#     print("Even lists:", even_list)
+#     print("Odd lists:", odd_list)
+
+#
+# split_even_odd(list_count_five)
 
 
-
-
+import random    # todo 11)
+a = random.randint(0, 30)
+first_list = []
+second_list = []
+for i in range(0, a):
+    first_list.append(random.randint(0, 30))
+    second_list.append(random.randint(0, 30))
+print(first_list)
+print(second_list)
 
 

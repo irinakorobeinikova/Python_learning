@@ -3,17 +3,17 @@ import names, randomtimestamp as rd
 import time
 import names
 
-def test_1(param_1):
-    result = param_1 + 3
-    print('param_1 =', param_1)
-    print('result =', result)
-test_1(5)
-
-for i in range(0, 3):
-    user_name = names.get_full_name()
-
-    print(user_name)
-
+# def test_1(param_1):
+#     result = param_1 + 3
+#     print('param_1 =', param_1)
+#     print('result =', result)
+# test_1(5)
+#
+# for i in range(0, 3):
+#     user_name = names.get_full_name()
+#
+#     print(user_name)
+#
 
     # test_1(i)
     # time.sleep(.500)
