@@ -56,6 +56,14 @@ def split_even_odd(list_count_five):    # todo 10)
     for i in list_count_five:
         if i % 2 == 0:
             even_list.append(i)
+        else:
+            i % 2 != 0
+            odd_list.append(i)
+    print("Even lists:", even_list)
+    print("Odd lists:", odd_list)
+
+
+
 
 
 
