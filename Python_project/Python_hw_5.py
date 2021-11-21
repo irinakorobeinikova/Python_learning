@@ -42,15 +42,20 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # for i in range(10):
 #     print(randint(1, 100))
 
-# for i in range(0, len(list_count_five), 5):     # todo 9)
-#     list_divide_several = list_count_five[i:i + 5]
-#     print(list_divide_several)
+# def func_generation(list_count_five, n):     # todo 9)
+#     for i in range(0, len(list_count_five), n):
+#         yield list_count_five[i:i + n]
+#
+#
+# print(list(func_generation(list_count_five, 5)))
 
 
-def func_generation(list_count_five, n):     # todo 9)
-    for i in range(0, len(list_count_five), n):
-        yield list_count_five[i:i + n]
+def split_even_odd(list_count_five):    # todo 10)
+    even_list = []
+    odd_list = []
+    for i in list_count_five:
+        if i % 2 == 0:
+            even_list.append(i)
 
 
-print(list(func_generation(list_count_five, 5)))
 
