@@ -77,5 +77,8 @@ print(list_3)
 #
 # split_even_odd(list_count_five)
 
+stars_5 = [list_1, list_2, list_3]    # todo 11
+print(stars_5)
+
 
 
