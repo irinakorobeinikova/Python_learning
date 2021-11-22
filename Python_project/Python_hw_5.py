@@ -84,5 +84,16 @@ print(stars_5)
 sum_stars_5 = [sum(list_1), sum(list_2), sum(list_3)]    # todo 12
 print(sum_stars_5)
 
+a = []
+b = []
+def split_into_two_lists(sum_stars_5):
 
+    for i in sum_stars_5:
+        if i >= 100:
+            a.append(i)
+        elif i < 100:
+            b.append(i)
+        else:
+            print("No lists")
+    return a, b
 
