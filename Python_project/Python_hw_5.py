@@ -81,4 +81,8 @@ stars_5 = [list_1, list_2, list_3]    # todo 11
 print(stars_5)
 
 
+sum_stars_5 = [sum(list_1), sum(list_2), sum(list_3)]    # todo 12
+print(sum_stars_5)
+
+
 
