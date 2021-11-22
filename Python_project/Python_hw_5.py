@@ -42,13 +42,25 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # for i in range(10):
 #     print(randint(1, 100))
 
-# def func_generation(list_count_five, n):     # todo 9)
-#     for i in range(0, len(list_count_five), n):
-#         yield list_count_five[i:i + n]
-#
-#
-# print(list(func_generation(list_count_five, 5)))
+list_divide_1 = []    # todo 9)
 
+
+def func_generation(list_count_five, n):
+    for i in range(0, len(list_count_five), n):
+        a = list_count_five[i:i + n]
+        list_divide_1.append(a)
+        yield a
+
+
+print(list(func_generation(list_count_five, 5)))
+
+print(list_divide_1)
+list_1 = list_divide_1 [0]
+print(list_1)
+list_2 = list_divide_1 [1]
+print(list_2)
+list_3 = list_divide_1 [2]
+print(list_3)
 
 # def split_even_odd(list_count_five):    # todo 10)
 #     even_list = []
@@ -66,27 +78,4 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # split_even_odd(list_count_five)
 
 
-# import random    # todo 11)
-# a = random.randint(0, 30)
-# first_l = []
-# second_l = []
-# for i in range(0, a):
-#     first_l.append(random.randint(0, 10))
-#     second_l.append(random.randint(0, 15))
-# print(first_l)
-# print(second_l)
 
-first_l = [5, 8, 0, 10, 1, 7, 5, 2, 9, 3, 1, 6, 7, 4, 8, 4, 6, 1, 3]
-second_l = [7, 15, 4, 9, 5, 6, 2, 5, 15, 14, 2, 9, 4, 10, 5, 14, 9, 5, 6]
-
-stars = []
-
-def different_num(first_l, second_l):
-
-    for i in first_l:
-        stars.append(i)
-        for i in second_l:
-            stars.append(i)
-    return stars
-
-different_num(first_l, second_l)
