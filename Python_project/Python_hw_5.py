@@ -71,29 +71,35 @@ print(list_3)
 #         else:
 #             i % 2 != 0
 #             odd_list.append(i)
-#     print("Even lists:", even_list)
-#     print("Odd lists:", odd_list)
+#     print("Even lists: ", even_list)
+#     print("Odd lists: ", odd_list)
 
 #
 # split_even_odd(list_count_five)
 
 stars_5 = [list_1, list_2, list_3]    # todo 11
-print(stars_5)
+print('stars_5 =', stars_5)
 
 
 sum_stars_5 = [sum(list_1), sum(list_2), sum(list_3)]    # todo 12
-print(sum_stars_5)
+print('The sum of lists = ', sum_stars_5)
 
-a = []
-b = []
+list_sum_more_100 = []
+list_sum_less_100 = []
+
+
 def split_into_two_lists(sum_stars_5):
 
     for i in sum_stars_5:
         if i >= 100:
-            a.append(i)
+            list_sum_more_100.append(i)
         elif i < 100:
-            b.append(i)
+            list_sum_less_100.append(i)
         else:
             print("No lists")
-    return a, b
+    return list_sum_more_100, list_sum_less_100
 
+
+print(split_into_two_lists(sum_stars_5))
+print('The list where sum of elements more than 100 = ', list_sum_more_100)
+print('The list where sum of elements less than 100 = ', list_sum_less_100)
