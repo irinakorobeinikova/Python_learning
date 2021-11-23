@@ -124,3 +124,10 @@ def u_salary_ages(age, sum_month, sum_all):
         print('If you want to save up', item_1, 'dollars,', 'it will take you:')
         print('years = ', years, 'months =', months, 'days =', days)
 
+    elif 18 <= u_age <= 70 and item_2:
+        total_days = item_2 / sum_save_month
+        print('If you want to save up', item_2, 'dollars,', 'it will take you:')
+        print('years = ', years, 'months =', months, 'days =', days)
+
+
+print(u_salary_ages(u_age, sum_save_month, sum_save_all))
