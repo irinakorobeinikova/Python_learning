@@ -120,3 +120,7 @@ def u_salary_ages(age, sum_month, sum_all):
     months = (total_days % 365) // 30
     days = (total_days % 365) % 30
 
+    if 18 <= u_age <= 70 and item_1:
+        print('If you want to save up', item_1, 'dollars,', 'it will take you:')
+        print('years = ', years, 'months =', months, 'days =', days)
+
