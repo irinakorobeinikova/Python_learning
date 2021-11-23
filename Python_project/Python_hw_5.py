@@ -28,7 +28,7 @@
 #     if i % 5 == 0:
 #         print('i =', i)
 
-list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]    # todo 7)
+# list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]    # todo 7)
 # print(list_count_five)
 #
 # counter = 0
@@ -42,25 +42,25 @@ list_count_five = [45, 38, 2, 14, 0, 17, 60, 95, 115, 314, 105, 208, 18, 28, 76]
 # for i in range(10):
 #     print(randint(1, 100))
 
-list_divide_1 = []    # todo 9)
+# list_divide_1 = []    # todo 9)
+#
+#
+# def func_generation(list_count_five, n):
+#     for i in range(0, len(list_count_five), n):
+#         a = list_count_five[i:i + n]
+#         list_divide_1.append(a)
+#         yield a
+#
+#
+# print(list(func_generation(list_count_five, 5)))
 
-
-def func_generation(list_count_five, n):
-    for i in range(0, len(list_count_five), n):
-        a = list_count_five[i:i + n]
-        list_divide_1.append(a)
-        yield a
-
-
-print(list(func_generation(list_count_five, 5)))
-
-print(list_divide_1)
-list_1 = list_divide_1 [0]
-print(list_1)
-list_2 = list_divide_1 [1]
-print(list_2)
-list_3 = list_divide_1 [2]
-print(list_3)
+# print(list_divide_1)
+# list_1 = list_divide_1 [0]
+# print(list_1)
+# list_2 = list_divide_1 [1]
+# print(list_2)
+# list_3 = list_divide_1 [2]
+# print(list_3)
 
 # def split_even_odd(list_count_five):    # todo 10)
 #     even_list = []
@@ -77,29 +77,40 @@ print(list_3)
 #
 # split_even_odd(list_count_five)
 
-stars_5 = [list_1, list_2, list_3]    # todo 11
-print('stars_5 =', stars_5)
+# stars_5 = [list_1, list_2, list_3]    # todo 11
+# print('stars_5 =', stars_5)
+#
+#
+# sum_stars_5 = [sum(list_1), sum(list_2), sum(list_3)]    # todo 12
+# print('The sum of lists = ', sum_stars_5)
+#
+# list_sum_more_100 = []    # todo 13)
+# list_sum_less_100 = []
+#
+#
+# def split_into_two_lists(sum_stars_5):
+#
+#     for i in sum_stars_5:
+#         if i >= 100:
+#             list_sum_more_100.append(i)
+#         elif i < 100:
+#             list_sum_less_100.append(i)
+#         else:
+#             print("No lists")
+#     return list_sum_more_100, list_sum_less_100
+#
+#
+# print(split_into_two_lists(sum_stars_5))
+# print('The list where sum of elements more than 100 = ', list_sum_more_100)
+# print('The list where sum of elements less than 100 = ', list_sum_less_100)
+
+u_age = 30
+sum_save_month = 100
+sum_save_all = [10000, 20000, 30000, 50000, 100000]
+item_1 = sum_save_all[0]
+item_2 = sum_save_all[1]
+item_3 = sum_save_all[2]
+item_4 = sum_save_all[3]
+item_5 = sum_save_all[4]
 
 
-sum_stars_5 = [sum(list_1), sum(list_2), sum(list_3)]    # todo 12
-print('The sum of lists = ', sum_stars_5)
-
-list_sum_more_100 = []
-list_sum_less_100 = []
-
-
-def split_into_two_lists(sum_stars_5):
-
-    for i in sum_stars_5:
-        if i >= 100:
-            list_sum_more_100.append(i)
-        elif i < 100:
-            list_sum_less_100.append(i)
-        else:
-            print("No lists")
-    return list_sum_more_100, list_sum_less_100
-
-
-print(split_into_two_lists(sum_stars_5))
-print('The list where sum of elements more than 100 = ', list_sum_more_100)
-print('The list where sum of elements less than 100 = ', list_sum_less_100)
