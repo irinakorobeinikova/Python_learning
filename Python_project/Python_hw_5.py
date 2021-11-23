@@ -114,3 +114,9 @@ item_4 = sum_save_all[3]
 item_5 = sum_save_all[4]
 
 
+def u_salary_ages(age, sum_month, sum_all):
+    total_days = item_1 / sum_save_month
+    years = total_days // 365
+    months = (total_days % 365) // 30
+    days = (total_days % 365) % 30
+
