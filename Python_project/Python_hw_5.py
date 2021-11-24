@@ -118,3 +118,4 @@ def u_savings(years):
 
         print('i =', i, years, months)
 
+u_savings(u_age)
