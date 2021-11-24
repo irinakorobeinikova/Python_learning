@@ -107,27 +107,20 @@
 u_age = 30
 sum_save_month = 100
 sum_save_all = [10000, 20000, 30000, 50000, 100000]
-item_1 = sum_save_all[0]
-item_2 = sum_save_all[1]
-item_3 = sum_save_all[2]
-item_4 = sum_save_all[3]
-item_5 = sum_save_all[4]
 
 
-def u_salary_ages(age, sum_month, sum_all):
-    total_days = item_1 / sum_save_month
-    years = total_days // 365
-    months = (total_days % 365) // 30
-    days = (total_days % 365) % 30
+def u_savings(age, sum_month, sum_all):
+    for i in range(sum_save_all(0, 6)):
+        sum_save_all_item = sum_save_all[i] / sum_save_month / 12
 
-    if 18 <= u_age <= 70 and item_1:
-        print('If you want to save up', item_1, 'dollars,', 'it will take you:')
-        print('years = ', years, 'months =', months, 'days =', days)
+        # years = total_days // 365
+        # months = (total_days % 365) // 30
 
-    elif 18 <= u_age <= 70 and item_2:
-        total_days = item_2 / sum_save_month
-        print('If you want to save up', item_2, 'dollars,', 'it will take you:')
-        print('years = ', years, 'months =', months, 'days =', days)
+        if 18 <= u_age <= 70 and sum_save_all[i]:
+            print(sum_save_all_item)
+        # print('If you want to save up', sum_save_all[i], 'dollars,', 'it will take you:')
+        # print('years = ', years, 'months =', months)
 
 
-print(u_salary_ages(u_age, sum_save_month, sum_save_all))
+# print(u_salary_ages(u_age, sum_save_month, sum_save_all))
+print(u_savings(u_age, sum_save_month, sum_save_all_item))
