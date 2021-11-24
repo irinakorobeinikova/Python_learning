@@ -105,17 +105,17 @@
 # print('The list where sum of elements less than 100 = ', list_sum_less_100)
 
 
-u_age = int(input('Enter your age '))
+u_age = int(input('Enter your age '))    # todo 14
 sum_save_month = int(input('Enter your sum of monthly savings '))
 sum_save_all = [10000, 20000, 30000, 50000, 100000]
 
 
 def u_savings(years):
     for i in sum_save_all:
-        total = i / sum_save_month
-        years = round(total / 12)
-        months = round(total % 365 // 30)
-
-        print('If you want to save up', i, 'dollars, it will take you', years, 'years', months, 'month')
+        if 0 < sum_save_month < 10000:
+            total = i / sum_save_month
+            years = round(total / 12)
+            months = round(total % 365 // 30)
+            print('If you want to save up', i, 'dollars, it will take you', years, 'years', months, 'month')
 
 u_savings(u_age)
