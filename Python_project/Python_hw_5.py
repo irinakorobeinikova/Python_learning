@@ -110,3 +110,11 @@ sum_save_month = int(input())
 sum_save_all = [10000, 20000, 30000, 50000, 100000]
 
 
+def u_savings(years):
+    for i in sum_save_all:
+        total = i / sum_save_month
+        years = round(total / 12)
+        months = round(total % 365 // 30)
+
+        print('i =', i, years, months)
+
