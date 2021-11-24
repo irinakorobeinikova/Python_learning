@@ -104,23 +104,30 @@
 # print('The list where sum of elements more than 100 = ', list_sum_more_100)
 # print('The list where sum of elements less than 100 = ', list_sum_less_100)
 
-import math
-u_age = int(input('Enter your age '))    # todo 14
-sum_save_month = int(input('Enter your sum of monthly savings '))
-sum_save_all = [10000, 20000, 30000, 50000, 100000]
+# import math
+# u_age = int(input('Enter your age '))    # todo 14
+# sum_save_month = int(input('Enter your sum of monthly savings '))
+# sum_save_all = [10000, 20000, 30000, 50000, 100000]
+#
+#
+# def u_savings(years):
+#     for i in sum_save_all:
+#         if 0 < sum_save_month < 10000 and 14 <= u_age <= 70:
+#             total = i / sum_save_month
+#             years = math.floor(total / 12)
+#             months = math.ceil(total % 12)
+#             print('If you want to save up', i, 'dollars, it will take you', years, 'years', months, 'month')
+#
+#         else:
+#             print('Enter valid data, please')
+#             break
+#
+#
+# u_savings(u_age)
 
+import names
+import random
 
-def u_savings(years):
-    for i in sum_save_all:
-        if 0 < sum_save_month < 10000 and 14 <= u_age <= 70:
-            total = i / sum_save_month
-            years = math.floor(total / 12)
-            months = math.ceil(total % 12)
-            print('If you want to save up', i, 'dollars, it will take you', years, 'years', months, 'month')
-
-        else:
-            print('Enter valid data, please')
-            break
-
-u_savings(u_age)
-
+for i in range(0, 10):
+    user_name_list = names.get_full_name()
+    print('Your name is', user_name_list)

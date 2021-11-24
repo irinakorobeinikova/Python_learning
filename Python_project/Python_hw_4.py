@@ -52,7 +52,7 @@ run = True    # todo 4)
 #         print('inner_count =', inner_count)
 
 
-for item in range(0, 21):
+for item in range(0, 21):    # todo 13)
     print('Stem =', item)
     if 12 > item > 7:
         print('If item = ', item)
