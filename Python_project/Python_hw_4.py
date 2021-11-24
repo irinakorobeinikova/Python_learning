@@ -40,22 +40,26 @@ run = True    # todo 4)
 #                 if item >=27:
 #                     print('item >=', item)    # todo 11.5)
 
-for item in range(0, range_count + 1):    # todo 12)
-    print('Step =', item)     # todo 12.1)
-    if item == 7:    # todo 12.2)
-        inner_count = 0
-        print('-- inner_count =', inner_count)
-        for inner_item in range(0, item):
-            print('--------- Inner_Step =', inner_item)
-            if inner_item == 5:
-                inner_count = inner_item
-        print('inner_count =', inner_count)
+# for item in range(0, range_count + 1):    # todo 12)
+#     print('Step =', item)     # todo 12.1)
+#     if item == 7:    # todo 12.2)
+#         inner_count = 0
+#         print('-- inner_count =', inner_count)
+#         for inner_item in range(0, item):
+#             print('--------- Inner_Step =', inner_item)
+#             if inner_item == 5:
+#                 inner_count = inner_item
+#         print('inner_count =', inner_count)
 
 
 for item in range(0, 21):
     print('Stem =', item)
     if 12 > item > 7:
+        print('If item = ', item)
+        continue
 
+
+print('End_iteration =', item)
 
 
 
