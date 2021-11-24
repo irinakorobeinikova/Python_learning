@@ -126,8 +126,13 @@
 # u_savings(u_age)
 
 import names
-import random
 
-for i in range(0, 10):
-    user_name_list = names.get_full_name()
-    print('Your name is', user_name_list)
+# for i in range(0, 71):    #todo 16)
+#     user_name_list = names.get_full_name()
+#     print('Your name is', user_name_list)
+
+import uuid
+
+for i in range(0, 71):
+    file_name_list = str(uuid.uuid4())
+    print(file_name_list)
