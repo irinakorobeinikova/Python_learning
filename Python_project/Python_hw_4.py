@@ -52,6 +52,9 @@ for item in range(0, range_count + 1):    # todo 12)
         print('inner_count =', inner_count)
 
 
+for item in range(0, 21):
+    print('Stem =', item)
+    if 12 > item > 7:
 
 
 
