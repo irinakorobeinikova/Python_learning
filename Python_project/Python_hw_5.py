@@ -133,6 +133,6 @@ import names
 
 import uuid
 
-for i in range(0, 71):
+for i in range(0, 71):     # todo 17)
     file_name_list = str(uuid.uuid4())
-    print(file_name_list)
+    print(i, 'file_name =', file_name_list)
