@@ -124,6 +124,7 @@
 #
 #
 # u_savings(u_age)
+import datetime
 
 import names
 
@@ -150,7 +151,7 @@ import random
 # list_2.append(list(range(40)))
 
 
-# from random import randint
+from random import randint
 
 
 
@@ -160,20 +161,23 @@ import random
 #
 #     print(x+end ='')
 
-
-#def name_date_reg(name):
-    #result = name_list_1 + date_reg_list
-
 import DateTime
 from datetime import date
 
-for i in range(1):
+
+# def name_date_reg(name, data):
+#     #result = name + data
+#
+a = []
+b = []
+
+for i in range(3):
     name_list_1 = names.get_full_name()
-    #start = datetime(2017, 1, 30)
-    date_reg_list = datetime.now()
-    #date_reg_list = start + (final - start) * random.random()
-    print(name_list_1, date_reg_list)
+    a.append(name_list_1)
+    start = d.datetime(2017, 1, 30)
+    final = date.datetime(2017, 1, 30)
+    date_reg_list = start + (final - start) * random.random()
+    b.append(date_reg_list)
+    #break
 
-
-
-#print(name_date_reg(name_list_1))
+print(a, b)
