@@ -133,6 +133,46 @@ import names
 
 import uuid
 
-for i in range(0, 71):     # todo 17)
-    file_name_list = str(uuid.uuid4())
-    print(i, 'file_name =', file_name_list)
+# for i in range(0, 71):     # todo 17)
+#     file_name_list = str(uuid.uuid4())
+#     print(i, 'file_name =', file_name_list)
+
+
+
+
+
+from random import randint
+import random
+
+# list_1 = []
+# list_2 = []
+# list_1.append(list(range(30)))
+# list_2.append(list(range(40)))
+
+
+# from random import randint
+
+
+
+# for x in range(10):
+#
+#     #i = randint(1, 20)
+#
+#     print(x+end ='')
+
+
+#def name_date_reg(name):
+    #result = name_list_1 + date_reg_list
+
+import DateTime
+
+for i in range(1):
+    name_list_1 = names.get_full_name()
+    start = DateTime(2017, 1, 30)
+    final = DateTime(2020, 5, 28)
+    date_reg_list = start + (final - start) * random.random()
+    print(name_list_1, date_reg_list)
+
+
+
+#print(name_date_reg(name_list_1))
