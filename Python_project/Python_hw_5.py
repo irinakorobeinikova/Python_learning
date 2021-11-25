@@ -165,12 +165,13 @@ import random
     #result = name_list_1 + date_reg_list
 
 import DateTime
+from datetime import date
 
 for i in range(1):
     name_list_1 = names.get_full_name()
-    start = DateTime(2017, 1, 30)
-    final = DateTime(2020, 5, 28)
-    date_reg_list = start + (final - start) * random.random()
+    #start = datetime(2017, 1, 30)
+    date_reg_list = datetime.now()
+    #date_reg_list = start + (final - start) * random.random()
     print(name_list_1, date_reg_list)
 
 
