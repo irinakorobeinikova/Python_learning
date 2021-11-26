@@ -172,6 +172,7 @@ from datetime import date
 for i in range(3):
     a = []
     b = []
+
     name_list_1 = names.get_full_name()
     a.append(name_list_1)
     start = date(2017, 1, 30)
@@ -180,8 +181,11 @@ for i in range(3):
     date_reg_list = dt.strftime('%Y-%m-%d::%H-%M')
     b.append(date_reg_list)
 
-    print(list(a + b))
+    print(a + b)
 
-
+x = ['ggg', 'vvv']
+y = ['qqq', 'kkk']
+z = [x] + [y]
+print(list(z))
 
 
