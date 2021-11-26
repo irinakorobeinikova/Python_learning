@@ -74,6 +74,19 @@ import names
 #     test_1(user_name, gen_date, user_weight)
 import datetime
 
-x = datetime.datetime.now()
+# x = datetime.datetime.now()
+#
+# print(x)
+from datetime import date
 
-print(x)
+# for a in range(5):
+#     print(datetime.date(2011, 5, 3) + datetime.timedelta(a))
+#
+from datetime import date
+
+start_date = date(2011, 5, 3)
+end_date = date(2011, 5, 10)
+
+for i in range(start_date.toordinal(), end_date.toordinal())
+
+    a = date.fromordinal(i)

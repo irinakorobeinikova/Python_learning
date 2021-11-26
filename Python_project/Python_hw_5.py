@@ -161,9 +161,9 @@ from random import randint
 #
 #     print(x+end ='')
 
-import DateTime
-from datetime import date
+import datetime
 
+from datetime import date
 
 # def name_date_reg(name, data):
 #     #result = name + data
@@ -171,13 +171,13 @@ from datetime import date
 a = []
 b = []
 
-for i in range(3):
+for i in range():
     name_list_1 = names.get_full_name()
     a.append(name_list_1)
-    start = d.datetime(2017, 1, 30)
-    final = date.datetime(2017, 1, 30)
+    start = date(2017, 1, 30)
+    final = date(2020, 8, 20)
     date_reg_list = start + (final - start) * random.random()
     b.append(date_reg_list)
-    #break
 
-print(a, b)
+
+print(a+b)
