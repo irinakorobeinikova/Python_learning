@@ -167,17 +167,20 @@ from datetime import date
 
 # def name_date_reg(name, data):
 #     #result = name + data
-#
-a = []
-b = []
 
-for i in range():
+
+for i in range(3):
+    a = []
+    b = []
+
     name_list_1 = names.get_full_name()
     a.append(name_list_1)
     start = date(2017, 1, 30)
     final = date(2020, 8, 20)
-    date_reg_list = start + (final - start) * random.random()
+    dt = start + (final - start) * random.random()
+    date_reg_list = dt.strftime('%Y-%m-%d::%H-%M')
     b.append(date_reg_list)
 
+    print(a + b)
 
-print(a+b)
+
