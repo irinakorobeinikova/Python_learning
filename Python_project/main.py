@@ -42,15 +42,15 @@ import names
 #     result = 'Hello, ' + param_1
 #
 #
-# def test_1(u_name, b_date):
-#     result = 'Hello, ' + u_name + 'you was born ' + str(b_date)
-#     print(result)
-#
-# for i in range(0, 3):
-#     user_name = names.get_full_name()
-#     gen_date = rd.random_date()
-#
-#     test_1(user_name, gen_date)
+def test_1(u_name, b_date):
+    result = 'Hello, ' + u_name + 'you was born ' + str(b_date)
+    print(result)
+
+for i in range(0, 3):
+    user_name = names.get_full_name()
+    gen_date = rd.random_date()
+
+    test_1(user_name, gen_date)
 # import random
 #
 #
@@ -82,11 +82,11 @@ from datetime import date
 # for a in range(5):
 #     print(datetime.date(2011, 5, 3) + datetime.timedelta(a))
 #
-from datetime import date
-
-start_date = date(2011, 5, 3)
-end_date = date(2011, 5, 10)
-
-for i in range(start_date.toordinal(), end_date.toordinal())
-
-    a = date.fromordinal(i)
+# from datetime import date
+#
+# start_date = date(2011, 5, 3)
+# end_date = date(2011, 5, 10)
+#
+# for i in range(start_date.toordinal(), end_date.toordinal())
+#
+#     a = date.fromordinal(i)

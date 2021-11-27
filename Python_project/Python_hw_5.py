@@ -162,32 +162,22 @@ from datetime import date
 #
 # print('Full list of lists =', full_list_of_lists)
 
-full_list_of_names = []
-full_list_of_date = []
-full_list_of_lists = []
+import names, randomtimestamp as rd
 
 
-def test(full_list_of_names, full_list_of_date):
-    one_of_gen_list = full_list_of_names + full_list_of_date
-    full_list_of_lists.append(one_of_gen_list)
+def test(name_l, date_l):
+    full_list_of_lists = []
+    result = name_l + str(date_l)
+    full_list_of_lists.append(result)
 
-    for i in range(5):
-        name_gen = names.get_full_name()
-        full_list_of_names.append(name_gen)
-    print(full_list_of_names)
+    print(full_list_of_lists)
 
-    for i in range(5):
-        start = date(2017, 1, 30)
-        final = date(2021, 11, 27)
-        dt = start + (final - start) * random.random()
-        date_l = dt.strftime('%Y-%m-%d')
-        full_list_of_date.append(date_l)
-    print(full_list_of_date)
+for i in range(5):
+    name_gen = names.get_full_name()
+    date_gen = rd.random_date()
 
 
-
-
-print('Full list of lists =', full_list_of_lists)
+    test(name_gen, date_gen)
 
 
 
