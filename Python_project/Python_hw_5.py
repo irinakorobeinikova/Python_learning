@@ -142,25 +142,42 @@ import uuid
 import random
 from datetime import date
 
-full_list_of_lists = []    # todo 18)
+# full_list_of_lists = []    # todo 18)
+#
+# for i in range(5):
+#     full_list_of_names = []
+#     full_list_of_date = []
+#
+#     name_gen = names.get_full_name()
+#     full_list_of_names.append(name_gen)
+#
+#     start = date(2017, 1, 30)
+#     final = date(2021, 11, 27)
+#     dt = start + (final - start) * random.random()
+#     date_l = dt.strftime('%Y-%m-%d')
+#     full_list_of_date.append(date_l)
+#
+#     one_of_gen_list = full_list_of_names + full_list_of_date
+#     full_list_of_lists.append(one_of_gen_list)
+#
+# print('Full list of lists =', full_list_of_lists)
+
+full_list_of_names = []
+full_list_of_date = []
+# full_list_of_lists = []
 
 for i in range(5):
-    full_list_of_names = []
-    full_list_of_date = []
-
     name_gen = names.get_full_name()
     full_list_of_names.append(name_gen)
+print(full_list_of_names)
 
-    start = date(2017, 1, 30)
-    final = date(2021, 11, 27)
-    dt = start + (final - start) * random.random()
-    date_l = dt.strftime('%Y-%m-%d')
-    full_list_of_date.append(date_l)
 
-    one_of_gen_list = full_list_of_names + full_list_of_date
-    full_list_of_lists.append(one_of_gen_list)
-
-print(full_list_of_lists)
+    #
+    #
+    # one_of_gen_list = full_list_of_names + full_list_of_date
+    # full_list_of_lists.append(one_of_gen_list)
+#
+# print('Full list of lists =', full_list_of_lists)
 
 
 
