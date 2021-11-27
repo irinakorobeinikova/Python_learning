@@ -139,29 +139,10 @@ import uuid
 #     print(i, 'file_name =', file_name_list)
 
 
-
-
-
-from random import randint
 import random
-
-# list_1 = []
-# list_2 = []
-# list_1.append(list(range(30)))
-# list_2.append(list(range(40)))
-
-from random import randint
-
-# for x in range(10):
-#
-#     #i = randint(1, 20)
-#
-#     print(x+end ='')
-
-
 from datetime import date
 
-full_list_of_lists = []
+full_list_of_lists = []    # todo 18)
 
 for i in range(5):
     full_list_of_names = []
@@ -171,14 +152,15 @@ for i in range(5):
     full_list_of_names.append(name_gen)
 
     start = date(2017, 1, 30)
-    final = date(2020, 8, 20)
+    final = date(2021, 11, 27)
     dt = start + (final - start) * random.random()
-    date_l = dt.strftime('%Y-%m-%d::%H-%M')
+    date_l = dt.strftime('%Y-%m-%d')
     full_list_of_date.append(date_l)
-    one_of_gen_list = a + b
-    d.append(c)
 
-print(d)
+    one_of_gen_list = full_list_of_names + full_list_of_date
+    full_list_of_lists.append(one_of_gen_list)
+
+print(full_list_of_lists)
 
 
 
