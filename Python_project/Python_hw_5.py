@@ -150,10 +150,7 @@ import random
 # list_1.append(list(range(30)))
 # list_2.append(list(range(40)))
 
-
 from random import randint
-
-
 
 # for x in range(10):
 #
@@ -161,31 +158,28 @@ from random import randint
 #
 #     print(x+end ='')
 
-import datetime
 
 from datetime import date
 
-# def name_date_reg(name, data):
-#     #result = name + data
+full_list_of_lists = []
 
+for i in range(5):
+    full_list_of_names = []
+    full_list_of_date = []
 
-for i in range(3):
-    a = []
-    b = []
+    name_gen = names.get_full_name()
+    full_list_of_names.append(name_gen)
 
-    name_list_1 = names.get_full_name()
-    a.append(name_list_1)
     start = date(2017, 1, 30)
     final = date(2020, 8, 20)
     dt = start + (final - start) * random.random()
-    date_reg_list = dt.strftime('%Y-%m-%d::%H-%M')
-    b.append(date_reg_list)
+    date_l = dt.strftime('%Y-%m-%d::%H-%M')
+    full_list_of_date.append(date_l)
+    one_of_gen_list = a + b
+    d.append(c)
 
-    print(a + b)
+print(d)
 
-x = ['ggg', 'vvv']
-y = ['qqq', 'kkk']
-z = [x] + [y]
-print(list(z))
+
 
 
