@@ -104,8 +104,8 @@
 # print('The list where sum of elements more than 100 = ', list_sum_more_100)
 # print('The list where sum of elements less than 100 = ', list_sum_less_100)
 
-# import math
-# u_age = int(input('Enter your age '))    # todo 14
+# import math     # todo 14)
+# u_age = int(input('Enter your age '))
 # sum_save_month = int(input('Enter your sum of monthly savings '))
 # sum_save_all = [10000, 20000, 30000, 50000, 100000]
 #
@@ -126,63 +126,33 @@
 # u_savings(u_age)
 import datetime
 
-import names
+import names    # todo 16)
 
-# for i in range(0, 71):    #todo 16)
+# for i in range(0, 71):
 #     user_name_list = names.get_full_name()
 #     print('Your name is', user_name_list)
 
-import uuid
+import uuid     # todo 17)
 
-# for i in range(0, 71):     # todo 17)
+# for i in range(0, 71):
 #     file_name_list = str(uuid.uuid4())
 #     print(i, 'file_name =', file_name_list)
 
 
-import random
-from datetime import date
+import names, randomtimestamp as rd    # todo 18)
 
-# full_list_of_lists = []    # todo 18)
-#
-# for i in range(5):
-#     full_list_of_names = []
-#     full_list_of_date = []
-#
-#     name_gen = names.get_full_name()
-#     full_list_of_names.append(name_gen)
-#
-#     start = date(2017, 1, 30)
-#     final = date(2021, 11, 27)
-#     dt = start + (final - start) * random.random()
-#     date_l = dt.strftime('%Y-%m-%d')
-#     full_list_of_date.append(date_l)
-#
-#     one_of_gen_list = full_list_of_names + full_list_of_date
-#     full_list_of_lists.append(one_of_gen_list)
-#
-# print('Full list of lists =', full_list_of_lists)
-
-import names, randomtimestamp as rd
-
-def test(name_date_list):
-
-    list_1 = []
-    print('Full list of lists =', list_1)
+full_list_of_lists = []
 
 for i in range(5):
-    full_list_of_lists = []
-    full_list_of_names = []
-    full_list_of_date = []
-
-    name_gen = names.get_full_name()
-    full_list_of_names.append(name_gen)
-
-    date_gen = rd.random_date()
-    full_list_of_date.append(date_gen)
-
-    one_of_gen_list = full_list_of_names + full_list_of_date
+    one_of_gen_list = []
     full_list_of_lists.append(one_of_gen_list)
 
-  test(full_list_of_lists)
+    name_gen = names.get_full_name()
+    one_of_gen_list.append(name_gen)
+
+    date_gen = str(rd.random_date())
+    one_of_gen_list.append(date_gen)
+
+print(full_list_of_lists)
 
 
