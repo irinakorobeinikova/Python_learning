@@ -164,21 +164,25 @@ from datetime import date
 
 import names, randomtimestamp as rd
 
+def test(name_date_list):
 
-def test(name_l, date_l):
-    full_list_of_lists = []
-    result = name_l + ' ' + str(date_l)
-    full_list_of_lists.append(result)
-
-    print(list(full_list_of_lists))
+    list_1 = []
+    print('Full list of lists =', list_1)
 
 for i in range(5):
+    full_list_of_lists = []
+    full_list_of_names = []
+    full_list_of_date = []
+
     name_gen = names.get_full_name()
+    full_list_of_names.append(name_gen)
+
     date_gen = rd.random_date()
+    full_list_of_date.append(date_gen)
 
+    one_of_gen_list = full_list_of_names + full_list_of_date
+    full_list_of_lists.append(one_of_gen_list)
 
-    test(name_gen, date_gen)
-
-
+  test(full_list_of_lists)
 
 
