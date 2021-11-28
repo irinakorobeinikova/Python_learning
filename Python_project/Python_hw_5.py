@@ -167,10 +167,10 @@ import names, randomtimestamp as rd
 
 def test(name_l, date_l):
     full_list_of_lists = []
-    result = name_l + str(date_l)
+    result = name_l + ' ' + str(date_l)
     full_list_of_lists.append(result)
 
-    print(full_list_of_lists)
+    print(list(full_list_of_lists))
 
 for i in range(5):
     name_gen = names.get_full_name()
