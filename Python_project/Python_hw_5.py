@@ -155,8 +155,8 @@ import names, randomtimestamp as rd    # todo 18)
 #
 # print(full_list_of_lists)
 
-
-
+import random
+import string
 employees = []
 
 for i in range(5):
@@ -165,6 +165,9 @@ for i in range(5):
 
     name_gen = names.get_full_name()
     one_list_of_name_date.append(name_gen)
+
+    u_login = random.choice(string.ascii_lowercase)
+    one_list_of_name_date.append(u_login)
 
 
 
