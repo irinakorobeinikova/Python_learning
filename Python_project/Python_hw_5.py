@@ -166,7 +166,9 @@ for i in range(5):
     name_gen = names.get_full_name()
     one_list_of_name_date.append(name_gen)
 
-    u_login = random.choice(string.ascii_lowercase)
+    u_login = random.choice(string.ascii_uppercase)
+    u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+
     one_list_of_name_date.append(u_login)
 
 
