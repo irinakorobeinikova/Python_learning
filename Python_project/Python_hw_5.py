@@ -140,19 +140,39 @@ import uuid     # todo 17)
 
 
 import names, randomtimestamp as rd    # todo 18)
+#
+# full_list_of_lists = []
+#
+# for i in range(5):
+#     one_list_of_name_date = []
+#     full_list_of_lists.append(one_list_of_name_date)
+#
+#     name_gen = names.get_full_name()
+#     one_list_of_name_date.append(name_gen)
+#
+#     date_gen = str(rd.random_date())
+#     one_list_of_name_date.append(date_gen)
+#
+# print(full_list_of_lists)
 
-full_list_of_lists = []
+
+
+employees = []
 
 for i in range(5):
-    one_of_gen_list = []
-    full_list_of_lists.append(one_of_gen_list)
+    one_list_of_name_date = []
+    employees.append(one_list_of_name_date)
 
     name_gen = names.get_full_name()
-    one_of_gen_list.append(name_gen)
+    one_list_of_name_date.append(name_gen)
+
+
+
+
+
 
     date_gen = str(rd.random_date())
-    one_of_gen_list.append(date_gen)
+    one_list_of_name_date.append(date_gen)
 
-print(full_list_of_lists)
-
+print(employees)
 
