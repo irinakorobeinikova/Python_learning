@@ -168,8 +168,13 @@ for i in range(5):
 
     u_login = random.choice(string.ascii_uppercase)
     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
-
+    u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
     one_list_of_name_date.append(u_login)
+
+    password = random.choice(string.ascii_uppercase) + random.choice(string.digits) + random.choice(string.digits)
+    password += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+    password += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.punctuation)
+    one_list_of_name_date.append(password)
 
 
 
