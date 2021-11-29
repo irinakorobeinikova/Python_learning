@@ -176,10 +176,9 @@ for i in range(5):
     password += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.punctuation)
     one_list_of_name_date.append(password)
 
-
-
-
-
+    u_email = random.choice(string.digits) + random.choice(string.ascii_uppercase) + random.choice(string.ascii_uppercase)
+    u_email += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
+    one_list_of_name_date.append(u_email)
 
     date_gen = str(rd.random_date())
     one_list_of_name_date.append(date_gen)
