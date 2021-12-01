@@ -16,3 +16,8 @@ print('E')
 for i in range(9):
     print('TTTTT')
 print('G')
+
+
+x = int(input())     # todo 7.1.4.
+for i in range(x):
+    print('*******************')
