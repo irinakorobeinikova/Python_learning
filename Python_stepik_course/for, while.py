@@ -30,4 +30,10 @@ for i in range(10):
 
 n = int(input())     # todo 7.1.6
 for i in range(n + 1):
-    print('Квадрат числа', i, 'равен', i ** 2)
+    print('The square of the number', i, 'equal to', i ** 2)
+
+
+num = int(input())     # todo 7.1.7
+num >= 2
+for i in range(num):
+    print((num - i) * '*')
