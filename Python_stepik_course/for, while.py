@@ -26,3 +26,8 @@ for i in range(x):
 text = input()     # todo 7.1.5
 for i in range(10):
     print(i, text)
+
+
+n = int(input())     # todo 7.1.6
+for i in range(n + 1):
+    print('Квадрат числа', i, 'равен', i ** 2)
