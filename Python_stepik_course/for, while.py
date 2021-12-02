@@ -37,3 +37,10 @@ num = int(input())     # todo 7.1.7
 num >= 2
 for i in range(num):
     print((num - i) * '*')
+
+
+m = int(input())     # todo 7.1.8
+p = int(input())
+n = int(input())
+for i in range(n):
+    print(i + 1, m * (1 + p / 100) ** i)
