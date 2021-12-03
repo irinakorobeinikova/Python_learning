@@ -51,3 +51,14 @@ n = int(input())
 m <= n
 for i in range(m, n+1):
     print(i)
+
+
+m = int(input())     # todo 7.2.2
+n = int(input())
+for i in range(m, n+1, 1):
+    if m < n:
+        print(i)
+for i in range(m, n-1, - 1):
+    if m >= n:
+        print(i)
+
