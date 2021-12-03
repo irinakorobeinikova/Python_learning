@@ -68,3 +68,11 @@ n = int(input())
 for i in range(m, n-1, - 1):
     if m > n and i % 2 != 0:
         print(i)
+
+
+m = int(input())      # todo 7.2.4
+n = int(input())
+m <= n
+for i in range(m, n+1, 1):
+    if i % 17 == 0 or i % 10 == 9 or i % 3 == 0 and i % 5 == 0:
+        print(i)
