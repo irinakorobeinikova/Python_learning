@@ -159,38 +159,39 @@ import random     # todo 19)
 import string
 employees = []
 
-for i in range(5):
-    one_list_of_name_date = []
-    employees.append(one_list_of_name_date)
+# for i in range(5):
+#     one_list_of_name_date = []
+#     employees.append(one_list_of_name_date)
+#
+#     name_gen = names.get_full_name()
+#     one_list_of_name_date.append(name_gen)
+#
+#     u_login = random.choice(string.ascii_uppercase)
+#     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+#     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
+#     one_list_of_name_date.append(u_login)
+#
+#     password = random.choice(string.ascii_uppercase) + random.choice(string.digits) + random.choice(string.digits)
+#     password += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+#     password += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.punctuation)
+#     one_list_of_name_date.append(password)
+#
+#     u_email = random.choice(string.digits) + random.choice(string.ascii_uppercase) + random.choice(string.ascii_uppercase)
+#     u_email += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
+#     one_list_of_name_date.append(u_email)
+#
+#     date_gen = str(rd.random_date())
+#     one_list_of_name_date.append(date_gen)
+#
+# print(employees)
 
-    name_gen = names.get_full_name()
-    one_list_of_name_date.append(name_gen)
-
-    u_login = random.choice(string.ascii_uppercase)
-    u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
-    u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
-    one_list_of_name_date.append(u_login)
-
-    password = random.choice(string.ascii_uppercase) + random.choice(string.digits) + random.choice(string.digits)
-    password += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
-    password += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.punctuation)
-    one_list_of_name_date.append(password)
-
-    u_email = random.choice(string.digits) + random.choice(string.ascii_uppercase) + random.choice(string.ascii_uppercase)
-    u_email += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
-    one_list_of_name_date.append(u_email)
-
-    date_gen = str(rd.random_date())
-    one_list_of_name_date.append(date_gen)
-
-print(employees)
 
 
 family = []    # todo 20)
 
 for i in range(5):
     one_list_of_family = []
-    employees.append(one_list_of_family)
+    family.append(one_list_of_family)
 
     name_gen = names.get_full_name()
     one_list_of_family.append(name_gen)
@@ -200,3 +201,11 @@ for i in range(5):
     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
     one_list_of_family.append(u_login)
 
+    random_bit = random.getrandbits(1)
+    random_boolean = bool(random_bit)
+    one_list_of_family.append(random_boolean)
+
+print(family)
+
+
+#k = list(range(male, female))
