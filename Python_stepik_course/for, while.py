@@ -80,3 +80,4 @@ for i in range(m, n+1, 1):
 
 n = int(input())
 for i in range(1, 11):
+    print(n, 'x', i, '=', n * i)
