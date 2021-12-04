@@ -21,3 +21,11 @@ n = int(input())
 for i in range(1, n + 1):
     counter = counter + 1/i
 print(counter - log(n))
+
+
+total = 0 # todo 7.3.4
+n = int(input())
+for i in range(1, n + 1):
+    if i ** 2 % 10 == 2 or i ** 2 % 10 == 5 or i ** 2 % 10 == 8:
+        total = total + i
+print(total)
