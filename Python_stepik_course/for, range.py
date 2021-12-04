@@ -1,14 +1,14 @@
-for i in range(10):
+for i in range(10):     # todo 7.1.1
     print('Python is awesome!')
 
 
-text = input()
+text = input()     # todo 7.1.2
 num = int(input())
 for _ in range(num):
     print(text)
 
 
-for i in range(6):
+for i in range(6):     # todo 7.1.3
     print('AAA')
 for i in range(5):
     print('BBBB')
@@ -18,42 +18,42 @@ for i in range(9):
 print('G')
 
 
-x = int(input())
+x = int(input())     # todo 7.1.4
 for i in range(x):
     print('*******************')
 
 
-text = input()
+text = input()     # todo 7.1.5
 for i in range(10):
     print(i, text)
 
 
-n = int(input())
+n = int(input())     # todo 7.1.6
 for i in range(n + 1):
     print('The square of the number', i, 'equal to', i ** 2)
 
 
-n = int(input())
+n = int(input())     # todo 7.1.7
 n >= 2
 for i in range(n):
     print((n - i) * '*')
 
 
-m = int(input())
+m = int(input())     # todo 7.1.8
 p = int(input())
 n = int(input())
 for i in range(n):
     print(i + 1, m * (1 + p / 100) ** i)
 
 
-m = int(input())
+m = int(input())     # todo 7.2.1
 n = int(input())
 m <= n
 for i in range(m, n+1):
     print(i)
 
 
-m = int(input())
+m = int(input())# todo 7.2.2
 n = int(input())
 for i in range(m, n+1, 1):
     if m < n:
@@ -63,14 +63,14 @@ for i in range(m, n-1, - 1):
         print(i)
 
 
-m = int(input())
+m = int(input())     # todo 7.2.3
 n = int(input())
 for i in range(m, n-1, - 1):
     if m > n and i % 2 != 0:
         print(i)
 
 
-m = int(input())
+m = int(input())     # todo 7.2.4
 n = int(input())
 m <= n
 for i in range(m, n+1, 1):
@@ -78,6 +78,6 @@ for i in range(m, n+1, 1):
         print(i)
 
 
-n = int(input())
+n = int(input())     # todo 7.2.5
 for i in range(1, 11):
     print(n, 'x', i, '=', n * i)

@@ -1,4 +1,4 @@
-counter = 0
+counter = 0     # todo 7.3.1
 a = int(input())
 b = int(input())
 for i in range(a, b + 1):
@@ -7,7 +7,7 @@ for i in range(a, b + 1):
 print(counter)
 
 
-total = 0
+total = 0     # todo 7.3.2
 n = int(input())
 for i in range(n):
     num = int(input())
@@ -15,7 +15,7 @@ for i in range(n):
 print(total)
 
 
-from math import *
+from math import *     # todo 7.3.3
 counter = 0
 n = int(input())
 for i in range(1, n + 1):
