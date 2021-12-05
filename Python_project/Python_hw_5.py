@@ -186,26 +186,44 @@ employees = []
 # print(employees)
 
 
-
 family = []    # todo 20)
 
-for i in range(5):
-    one_list_of_family = []
-    family.append(one_list_of_family)
+# for i in range(5):
+#     one_list_of_family = []
+#     family.append(one_list_of_family)
+#
+#     name_gen = names.get_full_name()
+#     one_list_of_family.append(name_gen)
+#
+#     u_login = random.choice(string.ascii_uppercase)
+#     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+#     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
+#     one_list_of_family.append(u_login)
+#
+#     random_bit = random.getrandbits(1)
+#     random_boolean = bool(random_bit)
+#     one_list_of_family.append(random_boolean)
+#
+# print(family)
+
+
+gender = []     # todo 20)
+
+for i in range(8):
+    one_list_of_gender = []
+    gender.append(one_list_of_gender)
 
     name_gen = names.get_full_name()
-    one_list_of_family.append(name_gen)
+    one_list_of_gender.append(name_gen)
 
     u_login = random.choice(string.ascii_uppercase)
     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
-    one_list_of_family.append(u_login)
+    one_list_of_gender.append(u_login)
 
-    random_bit = random.getrandbits(1)
-    random_boolean = bool(random_bit)
-    one_list_of_family.append(random_boolean)
+    female = 0
+    male = 1
+    num_gender = random.randint(0, 1)
+    one_list_of_gender.append(num_gender)
 
-print(family)
-
-
-#k = list(range(male, female))
+print(gender)
