@@ -243,7 +243,8 @@ for i in range(8):
     name_gen = names.get_full_name()
     one_list_of_salary.append(name_gen)
 
-    salary_gen = list(range(300, 5000))
+    salary_list = list(range(300, 5000))
+    salary_gen = random.choice(salary_list)
     one_list_of_salary.append(salary_gen)
 
 print(salary)
