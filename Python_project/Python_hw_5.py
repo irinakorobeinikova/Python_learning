@@ -248,3 +248,12 @@ for i in range(8):
     one_list_of_salary.append(salary_gen)
 
 print(salary)
+
+
+salary_name_list = []     # todo 23)
+
+
+for i in range(0, len(salary)) :
+    if salary[i] == 2:
+        salary_name_list.append(i)
+print(salary_name_list)
