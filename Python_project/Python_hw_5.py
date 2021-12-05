@@ -207,23 +207,43 @@ family = []    # todo 20)
 # print(family)
 
 
-gender = []     # todo 20)
+gender = []     # todo 21)
+
+# for i in range(8):
+#     one_list_of_gender = []
+#     gender.append(one_list_of_gender)
+#
+#     name_gen = names.get_full_name()
+#     one_list_of_gender.append(name_gen)
+#
+#     u_login = random.choice(string.ascii_uppercase)
+#     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+#     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
+#     one_list_of_gender.append(u_login)
+#
+#     female = 0
+#     male = 1
+#     num_gender = random.randint(0, 1)
+#     one_list_of_gender.append(num_gender)
+#
+# print(gender)
+
+
+salary = []     # todo 22)
 
 for i in range(8):
-    one_list_of_gender = []
-    gender.append(one_list_of_gender)
-
-    name_gen = names.get_full_name()
-    one_list_of_gender.append(name_gen)
+    one_list_of_salary = []
+    salary.append(one_list_of_salary)
 
     u_login = random.choice(string.ascii_uppercase)
     u_login += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
     u_login += random.choice(string.digits) + random.choice(string.digits) + random.choice(string.digits)
-    one_list_of_gender.append(u_login)
+    one_list_of_salary.append(u_login)
 
-    female = 0
-    male = 1
-    num_gender = random.randint(0, 1)
-    one_list_of_gender.append(num_gender)
+    name_gen = names.get_full_name()
+    one_list_of_salary.append(name_gen)
 
-print(gender)
+    salary_gen = list(range(300, 5000))
+    one_list_of_salary.append(salary_gen)
+
+print(salary)
