@@ -262,14 +262,22 @@ print(gender)
 # print(salary_name_list)
 
 
-women_name_list = []     # todo 24)
+men_name_list = []     # todo 24)
 
 for i in range(0, len(gender)):
     all_names_gen = gender[i][0]
     all_gender = gender[i][2]
-    if all_gender == 0:
-        women_name_list.append(all_names_gen)
-        print(all_names_gen, all_gender)
 
-print(women_name_list)
+
+#
+# women_name_list = []     # todo 25)
+#
+# for i in range(0, len(gender)):
+#     all_names_gen = gender[i][0]
+#     all_gender = gender[i][2]
+#     if all_gender == 0:
+#         women_name_list.append(all_names_gen)
+#         print(all_names_gen, all_gender)
+#
+# print(women_name_list)
 
