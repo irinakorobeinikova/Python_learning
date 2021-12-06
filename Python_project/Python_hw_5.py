@@ -187,6 +187,9 @@ employees = []
 
 
 family = []    # todo 20)
+#True = 'married'
+#False = 'single'
+
 
 for i in range(5):
     one_list_of_family = []
@@ -284,5 +287,27 @@ men_name_list = []     # todo 24)
 #         print(all_names_gen, all_gender)
 #
 # print(women_name_list)
+
+
+alone_men_list_family = []     # todo 26)
+
+for i in range(0, len(family)):
+    all_names_gen = family[i][0]
+
+    add_gender_family_list = []
+    female = 0
+    male = 1
+    num_gender = random.randint(0, 1)
+    add_gender_family_list.append(num_gender)
+    family.append(add_gender_family_list)
+
+    marital_status = family[i][2]
+    if num_gender == 1 and marital_status == False:
+        alone_men_list_family.append(all_names_gen)
+
+        #if num_gender == 1:
+        #alone_men_list_family.append(all_names_gen)
+            #print(num_gender)
+print(alone_men_list_family)
 
 
