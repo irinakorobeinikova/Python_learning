@@ -252,8 +252,8 @@ print(salary)
 
 salary_name_list = []     # todo 23)
 
+for i in range(0, len(salary)):
+    v = salary[i][2]
+    if 1500 >= v <= 3000:
 
-for i in range(0, len(salary)) :
-    if salary[i] == 2:
-        salary_name_list.append(i)
-print(salary_name_list)
+        print(salary[i][1], v)
