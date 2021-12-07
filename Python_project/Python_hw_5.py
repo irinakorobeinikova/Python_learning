@@ -288,8 +288,27 @@ men_name_list = []     # todo 24)
 #
 # print(women_name_list)
 
+#
+# alone_men_list_family = []     # todo 26)
+#
+# for i in range(0, len(family)):
+#     female = 0
+#     male = 1
+#     num_gender = random.randint(0, 1)
+#     family[i].insert(3, num_gender)
+#
+#     all_names_gen = family[i][0]
+#     marital_status = family[i][2]
+#     gender_family = family[i][3]
+#
+#     if gender_family == 1 and marital_status == False:
+#         alone_men_list_family.append(all_names_gen)
+#
+# print(family)
+# print(alone_men_list_family)
+#
 
-alone_men_list_family = []     # todo 26)
+alone_women_list_family = []     # todo 27)
 
 for i in range(0, len(family)):
     female = 0
@@ -301,10 +320,8 @@ for i in range(0, len(family)):
     marital_status = family[i][2]
     gender_family = family[i][3]
 
-    if gender_family == 1 and marital_status == False:
+    if gender_family == 0 and marital_status == False:
         alone_men_list_family.append(all_names_gen)
 
 print(family)
 print(alone_men_list_family)
-
-

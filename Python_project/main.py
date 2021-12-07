@@ -41,19 +41,19 @@ import names
 # def test_1(param_1):
 #     result = 'Hello, ' + param_1
 #
-one_list_of_name_date = []
-def test_1(u_name, b_date):
+# one_list_of_name_date = []
+# def test_1(u_name, b_date):
+#
+#     result = [u_name + ' ' + str(b_date)]
+#     one_list_of_name_date.append(result)
+#     print(one_list_of_name_date)
+#
+# for i in range(1):
+#     user_name = names.get_full_name()
+#     gen_date = rd.random_date()
 
-    result = [u_name + ' ' + str(b_date)]
-    one_list_of_name_date.append(result)
-    print(one_list_of_name_date)
-
-for i in range(1):
-    user_name = names.get_full_name()
-    gen_date = rd.random_date()
-
-    test_1(user_name, gen_date)
-# import random
+    # test_1(user_name, gen_date)
+import random
 #
 #
 # def test_1(u_name, b_date, u_weight):
@@ -92,3 +92,7 @@ from datetime import date
 # for i in range(start_date.toordinal(), end_date.toordinal())
 #
 #     a = date.fromordinal(i)
+import names
+
+
+d
