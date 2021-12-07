@@ -297,16 +297,14 @@ for i in range(0, len(family)):
     num_gender = random.randint(0, 1)
     family[i].insert(3, num_gender)
 
-print(family)
-
-for i in range(0, len(family)):
     all_names_gen = family[i][0]
-    gender_family = family[i][3]
     marital_status = family[i][2]
+    gender_family = family[i][3]
 
     if gender_family == 1 and marital_status == False:
         alone_men_list_family.append(all_names_gen)
 
+print(family)
 print(alone_men_list_family)
 
 
