@@ -191,7 +191,7 @@ family = []    # todo 20)
 #False = 'single'
 
 
-for i in range(5):
+for i in range(70):
     one_list_of_family = []
     family.append(one_list_of_family)
 
@@ -292,27 +292,21 @@ men_name_list = []     # todo 24)
 alone_men_list_family = []     # todo 26)
 
 for i in range(0, len(family)):
-    #add_gender_family_list = []
-
     female = 0
     male = 1
     num_gender = random.randint(0, 1)
-    #family[i][2] = num_gender
-    #add_gender_family_list.append(num_gender)
-    #family.append(family[i][])
     family[i].insert(3, num_gender)
 
 print(family)
 
-#     all_names_gen = family[i][0]
-#
-#     marital_status = family[i][2]
-#     if num_gender == 1 and marital_status == False:
-#         alone_men_list_family.append(all_names_gen)
-#
-#         #if num_gender == 1:
-#         #alone_men_list_family.append(all_names_gen)
-#             #print(num_gender)
-# print(alone_men_list_family)
-#
+for i in range(0, len(family)):
+    all_names_gen = family[i][0]
+    gender_family = family[i][3]
+    marital_status = family[i][2]
+
+    if gender_family == 1 and marital_status == False:
+        alone_men_list_family.append(all_names_gen)
+
+print(alone_men_list_family)
+
 
