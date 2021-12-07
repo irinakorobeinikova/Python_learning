@@ -321,7 +321,7 @@ for i in range(0, len(family)):
     gender_family = family[i][3]
 
     if gender_family == 0 and marital_status == False:
-        alone_men_list_family.append(all_names_gen)
+        alone_women_list_family.append(all_names_gen)
 
 print(family)
-print(alone_men_list_family)
+print(alone_women_list_family)
