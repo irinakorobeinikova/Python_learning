@@ -230,7 +230,7 @@ for i in range(70):
     num_gender = random.randint(0, 1)
     one_list_of_gender.append(num_gender)
 
-print(gender)
+print('The list of gender:', gender)
 
 
 salary = []     # todo 22)
@@ -263,7 +263,7 @@ print('The list of salary: ', salary)
 #         salary_name_list.append(all_names)
 #         #print(all_names, all_salary, '$')
 #
-# print(salary_name_list)
+# print('salary_name_list', salary_name_list)
 
 
 men_name_list = []     # todo 24)
@@ -275,7 +275,7 @@ men_name_list = []     # todo 24)
 #         men_name_list.append(all_names_gen)
 #         print(all_names_gen, all_gender)
 #
-# print(men_name_list)
+# print('men_name_list:', men_name_list)
 
 #
 # women_name_list = []     # todo 25)
@@ -287,7 +287,7 @@ men_name_list = []     # todo 24)
 #         women_name_list.append(all_names_gen)
 #         print(all_names_gen, all_gender)
 #
-# print(women_name_list)
+# print('women_name_list:', women_name_list)
 
 #
 # single_men_list_family = []     # todo 26)
@@ -306,7 +306,7 @@ men_name_list = []     # todo 24)
 #         single_men_list_family.append(all_names_gen)
 #
 # print(family)
-# print(single_men_list_family)
+# print('The single men list:', single_men_list_family)
 #
 
 # single_women_list_family = []     # todo 27)
@@ -324,7 +324,7 @@ men_name_list = []     # todo 24)
 #     if gender_family == 0 and marital_status == False:
 #         single_women_list_family.append(all_names_gen)
 #
-# print(single_women_list_family)
+# print('The single women list:', single_women_list_family)
 
 
 full_list = []     # todo 28)
@@ -341,5 +341,10 @@ for i in range(0, len(family)):
     gender_from_gender = family[i][3]
     salary_from_salary = family[i][4]
 
+    if gender_from_gender == 1 and salary_from_salary >= 1500 and marital_status_family == False:
+        full_list.append(name_from_employees)
+        # full_list.append(marital_status_family)
+        # full_list.append(salary_from_salary)
 
+print('The full list:', full_list)
 
