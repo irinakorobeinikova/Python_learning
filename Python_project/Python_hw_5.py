@@ -336,4 +336,10 @@ for i in range(0, len(family)):
 
     family[i].insert(4, salary[i][2])
 
+    name_from_employees = family[i][1]
+    marital_status_family = family[i][2]
+    gender_from_gender = family[i][3]
+    salary_from_salary = family[i][4]
+
+
 
