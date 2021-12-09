@@ -31,7 +31,7 @@ for i in range(1, n + 1):
 print(total)
 
 
-total = 1     # todo 7.3.4
+total = 1     # todo 7.3.5
 n = int(input())
 n <= 12
 for i in range(1, n + 1):
