@@ -10,9 +10,9 @@ while word != 'THE END' and word != 'The end':
     word = input()
 
 
-text = input()
+text = input()     # todo 7.4.3
 total = 0
-while text != 'стоп' and text != 'хватит' and text != 'достаточно':
+while text != 'stop' and text != 'enough' and text != 'quite':
     total += 1
     text = input()
 print(total)
