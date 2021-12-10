@@ -110,7 +110,7 @@
 # sum_save_all = [10000, 20000, 30000, 50000, 100000]
 #
 #
-# def u_savings(years):
+# def u_savings(years):     # todo 16)
 #     for i in sum_save_all:
 #         if 0 < sum_save_month < 10000 and 14 <= u_age <= 70:
 #             total = i / sum_save_month
@@ -126,9 +126,9 @@
 # u_savings(u_age)
 import datetime
 
-import names    # todo 16)
+import names
 
-# for i in range(0, 71):
+# for i in range(0, 71):     # todo 17)
 #     user_name_list = names.get_full_name()
 #     print('Your name is', user_name_list)
 
@@ -184,7 +184,7 @@ for i in range(70):
     date_gen = str(rd.random_date())
     one_list_of_name_date.append(date_gen)
 
-print('The list of employees: ', employees)
+print('The list of employees:', employees)
 
 
 family = []    # todo 20)
@@ -208,7 +208,7 @@ for i in range(70):
     random_boolean = bool(random_bit)
     one_list_of_family.append(random_boolean)
 
-print('The list of family: ', family)
+print('The list of family:', family)
 
 
 gender = []     # todo 21)
@@ -251,7 +251,7 @@ for i in range(70):
     salary_gen = random.choice(salary_list)
     one_list_of_salary.append(salary_gen)
 
-print('The list of salary: ', salary)
+print('The list of salary:', salary)
 
 
 # salary_name_list = []     # todo 23)
@@ -327,24 +327,48 @@ men_name_list = []     # todo 24)
 # print('The single women list:', single_women_list_family)
 
 
-full_list = []     # todo 28)
+# full_list = []     # todo 28)
+#
+# for i in range(0, len(family)):
+#     family[i][1] = employees[i][0]     # female = 0, male = 1
+#
+#     family[i].insert(3, gender[i][2])
+#
+#     family[i].insert(4, salary[i][2])
+#
+#     name_from_employees = family[i][1]
+#     marital_status_family = family[i][2]
+#     gender_from_gender = family[i][3]
+#     salary_from_salary = family[i][4]
+#
+#     if gender_from_gender == 1 and salary_from_salary >= 1500 and marital_status_family == False:
+#         full_list.append(name_from_employees)
+#         # full_list.append(marital_status_family)
+#         # full_list.append(salary_from_salary)
+#
+# print('The full list:', full_list)
 
-for i in range(0, len(family)):
-    family[i][1] = employees[i][0]     # female = 0, male = 1
 
-    family[i].insert(3, gender[i][2])
+def complete_list(u_name, u_family, u_gender, u_salary):     # todo 29)
 
-    family[i].insert(4, salary[i][2])
+    full_list = []
+    print('The full list:', full_list)
 
-    name_from_employees = family[i][1]
-    marital_status_family = family[i][2]
-    gender_from_gender = family[i][3]
-    salary_from_salary = family[i][4]
+    for i in range(0, len(family)):
+        family[i][1] = employees[i][0]     # female = 0, male = 1
 
-    if gender_from_gender == 1 and salary_from_salary >= 1500 and marital_status_family == False:
-        full_list.append(name_from_employees)
+        family[i].insert(3, gender[i][2])
+
+        family[i].insert(4, salary[i][2])
+
+        name_from_employees = family[i][1]
+        marital_status_family = family[i][2]
+        gender_from_gender = family[i][3]
+        salary_from_salary = family[i][4]
+
+        if gender_from_gender == 1 and salary_from_salary >= 1500 and marital_status_family == False:
+            full_list.append(name_from_employees)
         # full_list.append(marital_status_family)
         # full_list.append(salary_from_salary)
 
-print('The full list:', full_list)
-
+    complete_list(name_from_employees, marital_status_family, gender_from_gender, salary_from_salary)
