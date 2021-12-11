@@ -16,3 +16,9 @@ while text != 'stop' and text != 'enough' and text != 'quite':
     total += 1
     text = input()
 print(total)
+
+
+num = int(input()) # todo 7.4.4
+while num % 7 == 0:
+    print(num)
+    num = int(input())
