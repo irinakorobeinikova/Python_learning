@@ -22,3 +22,11 @@ num = int(input()) # todo 7.4.4
 while num % 7 == 0:
     print(num)
     num = int(input())
+
+
+total = 0
+num = int(input())
+while num >= 0:
+    total += num
+    num = int(input())
+print(total)
