@@ -24,9 +24,15 @@ while num % 7 == 0:
     num = int(input())
 
 
-total = 0
+total = 0      # todo 7.4.5
 num = int(input())
 while num >= 0:
     total += num
     num = int(input())
 print(total)
+
+
+total = 0      # todo 7.4.6
+num = int(input())
+while num > 0 and num < 6:
+    if num == 5:
