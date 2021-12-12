@@ -57,3 +57,10 @@ while n >= 1 and n < 5:
         counter += 1
         n = n - 1
 print(counter)
+
+
+num = int(input())     # todo 7.5.1
+while num != 0:
+    last_digit = num % 10
+    num = num // 10
+    print(last_digit)
