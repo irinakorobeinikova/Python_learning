@@ -39,3 +39,21 @@ while num > 0 and num < 6:
         total += 1
     num = int(input())
 print(total)
+
+
+n = int(input())     # todo 7.4.7
+counter = 0
+
+while n >= 25:
+    counter += 1
+    n = n - 25
+while n >= 10 and n < 25:
+    counter += 1
+    n = n - 10
+while n >= 5 and n < 10:
+        counter += 1
+        n = n - 5
+while n >= 1 and n < 5:
+        counter += 1
+        n = n - 1
+print(counter)
