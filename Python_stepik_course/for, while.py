@@ -82,3 +82,6 @@ while n != 0:
         min_digit = last_digit
     if last_digit > max_digit:
         max_digit = last_digit
+    n = n // 10
+print('Максимальная цифра равна', max_digit)
+print('Минимальная цифра равна', min_digit)
