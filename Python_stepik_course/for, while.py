@@ -71,3 +71,9 @@ while num != 0:
     last_digit = num % 10
     num = num // 10
     print(last_digit, end='')
+
+
+n = int(input())     #
+max_digit = 0
+min_digit = 9
+while n != 0:
