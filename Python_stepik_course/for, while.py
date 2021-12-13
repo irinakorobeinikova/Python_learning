@@ -77,3 +77,8 @@ n = int(input())     #
 max_digit = 0
 min_digit = 9
 while n != 0:
+    last_digit = n % 10
+    if last_digit < min_digit:
+        min_digit = last_digit
+    if last_digit > max_digit:
+        max_digit = last_digit
