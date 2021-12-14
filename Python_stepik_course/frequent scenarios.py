@@ -40,9 +40,18 @@
 # print(total)
 
 
-total = 1     # todo 7.3.6
-for i in range(10):
-    number = 2
-    if number != 0:
-        total *= number
-print(total)
+# total = 1     # todo 7.3.6
+# for i in range(10):
+#     number = int(input())
+#     if number != 0:
+#         total *= number
+# print(total)
+
+
+total = 0     # todo 7.3.7
+n = 10
+for i in range(1, n+1):
+    if n % i == 0:
+
+        total += n
+    print(i, n, total)
