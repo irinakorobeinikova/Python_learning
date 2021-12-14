@@ -73,7 +73,7 @@ while num != 0:
     print(last_digit, end='')
 
 
-n = int(input())     #
+n = int(input())     # todo 7.5.3
 max_digit = 0
 min_digit = 9
 while n != 0:
