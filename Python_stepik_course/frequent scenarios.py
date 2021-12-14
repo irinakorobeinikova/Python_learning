@@ -40,8 +40,9 @@
 # print(total)
 
 
-total = 1
+total = 1     # todo 7.3.6
 for i in range(10):
     number = 2
     if number != 0:
         total *= number
+print(total)
