@@ -48,10 +48,15 @@
 # print(total)
 
 
-total = 0     # todo 7.3.7
-n = 10
-for i in range(1, n+1):
-    if n % i == 0:
+# total = 0     # todo 7.3.7
+# n = int(input())
+# for i in range(1, n+1):
+#     if n % i == 0:
+#         total += i
+# print(total)
 
-        total += n
-    print(i, n, total)
+
+total = 0
+n = int(input())
+for i in range(n):
+    if i % 2 == 0:
