@@ -85,3 +85,5 @@ for i in range(n):
     if num > max_1:
         max_2 = max_1
         max_1 = num
+    elif num > max_2:
+         max_2 = num
