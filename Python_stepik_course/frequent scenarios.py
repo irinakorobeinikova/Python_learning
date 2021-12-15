@@ -66,12 +66,18 @@
 # print(total)
 #
 
-total = 0     # todo 7.3.10
-for i in range(10):
-    n = int(input())
-    if n % 2 == 0:
-        total = total + 1
-if total == 10:
-    print('YES')
-else:
-    print('NO')
+# total = 0     # todo 7.3.10
+# for i in range(10):
+#     n = int(input())
+#     if n % 2 == 0:
+#         total = total + 1
+# if total == 10:
+#     print('YES')
+# else:
+#     print('NO')
+
+
+n = int(input()) # todo 3.7.9
+max_1 = 0
+max_2 = 1
+for i in range(n):
