@@ -56,11 +56,18 @@
 # print(total)
 
 
+# total = 0
+# n = int(input())
+# for i in range(n):
+#     if i % 2 == 0:
+#         total += i + 1
+#     else:
+#         total -= i + 1
+# print(total)
+#
+
 total = 0
-n = int(input())
-for i in range(n):
-    if i % 2 == 0:
-        total += i + 1
-    else:
-        total -= i + 1
-print(total)
+for i in range(10):
+    n = int(input())
+    if n % 2 == 0:
+        total = total + 1
