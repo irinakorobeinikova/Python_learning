@@ -81,3 +81,7 @@ n = int(input()) # todo 3.7.9
 max_1 = 0
 max_2 = 1
 for i in range(n):
+    num = int(input())
+    if num > max_1:
+        max_2 = max_1
+        max_1 = num
