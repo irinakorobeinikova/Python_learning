@@ -89,3 +89,7 @@ for i in range(n):
          max_2 = num
 print(max_1)
 print(max_2)
+
+
+n = int(input()) # todo 7.3.11
+a, b = 0, 1
