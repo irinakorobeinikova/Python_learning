@@ -95,4 +95,5 @@ from datetime import date
 import names
 
 
-d
+file_path = '\Users\irina\git\Python_learning\Python_project\'
+
