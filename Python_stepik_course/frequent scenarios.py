@@ -95,3 +95,4 @@ n = int(input()) # todo 7.3.11
 a, b = 0, 1
 for i in range(n):
     a, b = b, a + b
+    print(a, end=' ')
