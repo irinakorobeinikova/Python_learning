@@ -85,3 +85,7 @@ while n != 0:
     n = n // 10
 print('Максимальная цифра равна', max_digit)
 print('Минимальная цифра равна', min_digit)
+
+
+n = int(input())     # todo 7.5.4
+count = 0
