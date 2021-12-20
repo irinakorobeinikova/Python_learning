@@ -99,7 +99,9 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_name = 'test.txt'
 
 file_path_name = file_path + file_name
+with open(file_path_name, 'w') as txt_file:
+    name = 'Irina '
+    last_name = 'Korobeinikova'
+    full_name = name + last_name
 
-# f = open(file_path_name, 'w')
-# f.write('Hello')
-# f.close()
+    txt_file.write(full_name)
