@@ -100,23 +100,34 @@ file_name = 'test.txt'
 
 file_path_name = file_path + file_name
 
-with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
-    name = 'Irina '
-    last_name = 'Korobeinikova\n'
-    full_name = name + last_name
+# with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
+#     name = 'Irina '
+#     last_name = 'Korobeinikova\n'
+#     full_name = name + last_name
+#
+#     txt_file.write(full_name)
+#
+# with open(file_path_name, 'a') as txt_file:     # todo 'How to add (input) data to a file'
+#     name = input('name: ')
+#     last_name = input('last_name: ')
+#     full_name = name + ' ' + last_name + '\n'
+#
+#     txt_file.write(full_name)
+#
+# with open(file_path_name, 'a') as txt_file:     # todo 'How to add data to a file'
+#     name = 'Vadim '
+#     last_name = 'Ksendzov'
+#     full_name = name + last_name
+#
+#     txt_file.write(full_name)
 
-    txt_file.write(full_name)
+names_list = ['Pavel', 'Alex', 'Julia', 'Sam']
+# with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (for)'
+#     for i in names_list:
+#         txt_file.write(i)
+#         txt_file.write('\n')
 
-with open(file_path_name, 'a') as txt_file:     # todo 'How to add (input) data to a file'
-    name = input('name: ')
-    last_name = input('last_name: ')
-    full_name = name + ' ' + last_name + '\n'
+age_list = ['28', '35', '48', '55']
+with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (join)'
+    txt_file.write('\n'.join(age_list))
 
-    txt_file.write(full_name)
-
-with open(file_path_name, 'a') as txt_file:     # todo 'How to add data to a file'
-    name = 'Vadim '
-    last_name = 'Ksendzov'
-    full_name = name + last_name
-
-    txt_file.write(full_name)
