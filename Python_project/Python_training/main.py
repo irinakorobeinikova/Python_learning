@@ -99,9 +99,24 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_name = 'test.txt'
 
 file_path_name = file_path + file_name
-with open(file_path_name, 'w') as txt_file:
+
+with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
     name = 'Irina '
-    last_name = 'Korobeinikova'
+    last_name = 'Korobeinikova\n'
+    full_name = name + last_name
+
+    txt_file.write(full_name)
+
+with open(file_path_name, 'a') as txt_file:     # todo 'How to add (input) data to a file'
+    name = input('name: ')
+    last_name = input('last_name: ')
+    full_name = name + ' ' + last_name + '\n'
+
+    txt_file.write(full_name)
+
+with open(file_path_name, 'a') as txt_file:     # todo 'How to add data to a file'
+    name = 'Vadim '
+    last_name = 'Ksendzov'
     full_name = name + last_name
 
     txt_file.write(full_name)
