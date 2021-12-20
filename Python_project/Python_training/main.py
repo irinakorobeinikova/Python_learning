@@ -128,6 +128,13 @@ names_list = ['Pavel', 'Alex', 'Julia', 'Sam']
 #         txt_file.write('\n')
 
 age_list = ['28', '35', '48', '55']
-with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (join)'
-    txt_file.write('\n'.join(age_list))
+# with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (join)'
+#     txt_file.write('\n'.join(age_list))
+
+with open(file_path_name, 'r') as txt_file:     # todo 'How to read data'
+    read_f = txt_file.readlines()
+    for i in read_f:
+        print(i.rstrip(), type(i))
+
+
 
