@@ -141,17 +141,29 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_name = 'test.csv'
 csv_file_name = file_path + file_name
 
-name_age =
+# users_list = [      # todo 'Hoq to create data to csv file'
+#     ['Vadim', 32],
+#     ['Alex', 36],
+#     ['Olga', 28]
+# ]
+#
+# with open(csv_file_name, 'w') as cf:
+#     writer = csv.writer(cf)
+#     writer.writerows(users_list)
 
-users_list = [
-    ['Vadim', 32],
-    ['Alex', 36],
-    ['Olga', 28],
-    ['Jon', 40]
+
+users_list_next = [     # todo 'Hoq to generate data to csv file'
+    ['Peter', 23],
+    ['Alexey', 34],
+    ['Veronika', 22],
+    ['Jon', 39]
 ]
-with open(csv_file_name, 'w') as cf:
-    writer = csv.writer(cf)
-    writer.writerows(users_list)
+#new_users_list = []
+for item in range(0, 100):
+    for ul_item in users_list_next:
+        name_age = []
+        new_name = ul_item[0] + '_' + str(item)
+        new_age = 10 + item
 
 
 
