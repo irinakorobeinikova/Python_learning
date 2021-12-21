@@ -97,7 +97,6 @@ import names
 
 # file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'      # todo 'How to create a file'
 # file_name = 'test.txt'
-#
 # file_path_name = file_path + file_name
 
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
@@ -140,8 +139,9 @@ import csv
 
 file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_name = 'test.csv'
-
 csv_file_name = file_path + file_name
+
+name_age =
 
 users_list = [
     ['Vadim', 32],
@@ -150,6 +150,8 @@ users_list = [
     ['Jon', 40]
 ]
 with open(csv_file_name, 'w') as cf:
+    writer = csv.writer(cf)
+    writer.writerows(users_list)
 
 
 
