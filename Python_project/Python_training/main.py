@@ -95,10 +95,10 @@ from datetime import date
 import names
 
 
-file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
-file_name = 'test.txt'
-
-file_path_name = file_path + file_name
+# file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'      # todo 'How to create a file'
+# file_name = 'test.txt'
+#
+# file_path_name = file_path + file_name
 
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
 #     name = 'Irina '
@@ -131,10 +131,26 @@ age_list = ['28', '35', '48', '55']
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (join)'
 #     txt_file.write('\n'.join(age_list))
 
-with open(file_path_name, 'r') as txt_file:     # todo 'How to read data'
-    read_f = txt_file.readlines()
-    for i in read_f:
-        print(i.rstrip(), type(i))
+# with open(file_path_name, 'r') as txt_file:     # todo 'How to read data'
+#     read_f = txt_file.readlines()
+#     for i in read_f:
+#         print(i.rstrip(), type(i))
+
+import csv
+
+file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
+file_name = 'test.csv'
+
+csv_file_name = file_path + file_name
+
+users_list = [
+    ['Vadim', 32],
+    ['Alex', 36],
+    ['Olga', 28],
+    ['Jon', 40]
+]
+with open(csv_file_name, 'w') as cf:
+
 
 
 
