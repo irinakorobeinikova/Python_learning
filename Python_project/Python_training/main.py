@@ -152,7 +152,7 @@ csv_file_name = file_path + file_name
 #     writer.writerows(users_list)
 
 
-users_list_next = [     # todo 'Hoq to generate data to csv file'
+users_list_next = [     # todo 'Hoq to generate data to a csv file'
     ['Peter', 23],
     ['Alexey', 34],
     ['Veronika', 22],
@@ -164,6 +164,13 @@ for item in range(0, 100):
         name_age = []
         new_name = ul_item[0] + '_' + str(item)
         new_age = 10 + item
+        name_age.append(new_name)
+        name_age.append(new_age)
+        print(name_age)
+    #         new_users_list.append(name_age)
+    #
+    # for ii in new_users_list:
+    #     print(ii)
 
 
 
