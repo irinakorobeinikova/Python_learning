@@ -194,7 +194,7 @@ import csv
 #     writer.writerow(row_1)
 
 
-file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add headers to the file'
+file_name = 'csv_lesson_8_headers.csv'      # todo 'How to create headers to the file'
 csv_file_name = file_path + file_name
 
 user_name_list = [
@@ -204,7 +204,9 @@ user_name_list = [
 ]
 
 second_user_list = []
-with open(csv_file_name, 'w') as cf:
+with open(csv_file_name, 'w') as cf:       # todo 'How to add headers to the file'
     columns = ['name', 'age']
     writer = csv.DictWriter(cf, fieldnames=columns)
     writer.writeheader()
+    row_2 = {'name': 'Steve', 'age': 37}
+    writer.writerow(row_2)
