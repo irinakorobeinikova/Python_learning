@@ -93,9 +93,9 @@ from datetime import date
 #
 #     a = date.fromordinal(i)
 import names
+#=====================================================================================================================
 
-
-# file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'      # todo 'How to create a file'
+file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'     # todo 'How to create a path to the file'
 # file_name = 'test.txt'
 # file_path_name = file_path + file_name
 
@@ -137,7 +137,7 @@ age_list = ['28', '35', '48', '55']
 
 import csv
 
-# file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
+
 # file_name = 'test.csv'
 # csv_file_name = file_path + file_name
 
@@ -176,19 +176,35 @@ import csv
 #     writer = csv.writer(cf)
 #     writer.writerows(new_users_list)
 
-file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'      # todo 'How to create a csv file'
-file_name = 'csv_lesson_8.csv'
+
+# file_name = 'csv_lesson_8.csv'      # todo 'How to create a csv file'
+# csv_file_name = file_path + file_name
+#
+# user_name_list = [      # todo 'How to create data to csv file'
+#     ['Kate', 35],
+#     ['Alex', 26],
+#     ['Pavel', 37]
+# ]
+#
+# second_user_list = []
+
+# with open(csv_file_name, 'a') as csv_f:     # todo 'How to add data to a csv file'
+#     writer = csv.writer(csv_f)
+#     row_1 = ['Vlas', 25]
+#     writer.writerow(row_1)
+
+
+file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add headers to the file'
 csv_file_name = file_path + file_name
 
-user_name_list = [      # todo 'How to create data to csv file'
+user_name_list = [
     ['Kate', 35],
     ['Alex', 26],
     ['Pavel', 37]
 ]
 
 second_user_list = []
-
-with open(csv_file_name, 'a') as csv_f:     # todo 'How to add data to a csv file'
-    writer = csv.writer(csv_f)
-    row_1 = ['Vlas', 25]
-    writer.writerow(row_1)
+with open(csv_file_name, 'w') as cf:
+    columns = ['name', 'age']
+    writer = csv.DictWriter(cf, fieldnames=columns)
+    writer.writeheader()
