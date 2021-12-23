@@ -141,7 +141,7 @@ import csv
 # file_name = 'test.csv'
 # csv_file_name = file_path + file_name
 
-# users_list = [      # todo 'Hoq to create data to csv file'
+# users_list = [      # todo 'How to create data to csv file'
 #     ['Vadim', 32],
 #     ['Alex', 36],
 #     ['Olga', 28]
@@ -180,7 +180,7 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_name = 'csv_lesson_8.csv'
 csv_file_name = file_path + file_name
 
-user_name_list = [      # todo 'Hoq to create data to csv file'
+user_name_list = [      # todo 'How to create data to csv file'
     ['Kate', 35],
     ['Alex', 26],
     ['Pavel', 37]
@@ -188,6 +188,9 @@ user_name_list = [      # todo 'Hoq to create data to csv file'
 
 second_user_list = []
 
-with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
-    writer = csv.writer(cf)
-    writer.writerows(user_name_list)
+# with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
+#     writer = csv.writer(cf)
+#     writer.writerows(user_name_list)
+
+with open(csv_file_name, 'a') as scv_f:
+    writer = csv.writer(scv_f)
