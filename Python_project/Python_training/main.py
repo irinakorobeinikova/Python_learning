@@ -188,9 +188,7 @@ user_name_list = [      # todo 'How to create data to csv file'
 
 second_user_list = []
 
-# with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
-#     writer = csv.writer(cf)
-#     writer.writerows(user_name_list)
-
-with open(csv_file_name, 'a') as scv_f:
-    writer = csv.writer(scv_f)
+with open(csv_file_name, 'a') as csv_f:     # todo 'How to add data to a csv file'
+    writer = csv.writer(csv_f)
+    row_1 = ['Vlas', 25]
+    writer.writerow(row_1)
