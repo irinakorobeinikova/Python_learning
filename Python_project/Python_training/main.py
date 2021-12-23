@@ -137,9 +137,9 @@ age_list = ['28', '35', '48', '55']
 
 import csv
 
-file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
-file_name = 'test.csv'
-csv_file_name = file_path + file_name
+# file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
+# file_name = 'test.csv'
+# csv_file_name = file_path + file_name
 
 # users_list = [      # todo 'Hoq to create data to csv file'
 #     ['Vadim', 32],
@@ -151,28 +151,43 @@ csv_file_name = file_path + file_name
 #     writer = csv.writer(cf)
 #     writer.writerows(users_list)
 
-
-users_list_next = [     # todo 'How to generate data to a csv file'
-    ['Peter', 23],
-    ['Alexey', 34],
-    ['Veronika', 22],
-    ['Jon', 39]
-]
-new_users_list = []
-for item in range(0, 100):
-    for ul_item in users_list_next:
-        name_age = []
-        new_name = ul_item[0] + '_' + str(item)
-        new_age = 10 + item
-        name_age.append(new_name)
-        name_age.append(new_age)
-        new_users_list.append(name_age)
-        # print(name_age)
-
+#
+# users_list_next = [     # todo 'How to generate data to a csv file'
+#     ['Peter', 23],
+#     ['Alexey', 34],
+#     ['Veronika', 22],
+#     ['Jon', 39]
+# ]
+# new_users_list = []
+# for item in range(0, 100):
+#     for ul_item in users_list_next:
+#         name_age = []
+#         new_name = ul_item[0] + '_' + str(item)
+#         new_age = 10 + item
+#         name_age.append(new_name)
+#         name_age.append(new_age)
+#         new_users_list.append(name_age)
+#         # print(name_age)
+#
 # for ii in new_users_list:
 #     print(ii)
+#
+# with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
+#     writer = csv.writer(cf)
+#     writer.writerows(new_users_list)
+
+file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'      # todo 'How to create a csv file'
+file_name = 'csv_lesson_8.csv'
+csv_file_name = file_path + file_name
+
+user_name_list = [      # todo 'Hoq to create data to csv file'
+    ['Kate', 35],
+    ['Alex', 26],
+    ['Pavel', 37]
+]
+
+second_user_list = []
 
 with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
     writer = csv.writer(cf)
-    writer.writerows(new_users_list)
-
+    writer.writerows(user_name_list)
