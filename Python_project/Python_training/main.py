@@ -152,13 +152,13 @@ csv_file_name = file_path + file_name
 #     writer.writerows(users_list)
 
 
-users_list_next = [     # todo 'Hoq to generate data to a csv file'
+users_list_next = [     # todo 'How to generate data to a csv file'
     ['Peter', 23],
     ['Alexey', 34],
     ['Veronika', 22],
     ['Jon', 39]
 ]
-#new_users_list = []
+new_users_list = []
 for item in range(0, 100):
     for ul_item in users_list_next:
         name_age = []
@@ -166,12 +166,13 @@ for item in range(0, 100):
         new_age = 10 + item
         name_age.append(new_name)
         name_age.append(new_age)
-        print(name_age)
-    #         new_users_list.append(name_age)
-    #
-    # for ii in new_users_list:
-    #     print(ii)
+        new_users_list.append(name_age)
+        # print(name_age)
 
+for ii in new_users_list:
+    print(ii)
 
-
+with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
+    writer = csv.writer(cf)
+    writer.writerows(new_users_list)
 
