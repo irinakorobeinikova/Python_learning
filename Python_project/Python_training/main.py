@@ -169,8 +169,8 @@ for item in range(0, 100):
         new_users_list.append(name_age)
         # print(name_age)
 
-for ii in new_users_list:
-    print(ii)
+# for ii in new_users_list:
+#     print(ii)
 
 with open(csv_file_name, 'w') as cf:    # todo 'How to add data to a csv file'
     writer = csv.writer(cf)
