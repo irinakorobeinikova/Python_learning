@@ -193,6 +193,24 @@ import csv
 #     row_1 = ['Vlas', 25]
 #     writer.writerow(row_1)
 
+#===================================================
+# file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add headers to the file'
+# csv_file_name = file_path + file_name
+#
+# user_name_list = [
+#     ['Kate', 35],
+#     ['Alex', 26],
+#     ['Pavel', 37]
+# ]
+#
+# second_user_list = []
+# with open(csv_file_name, 'w') as cf:
+#     columns = ['name', 'age']
+#     writer = csv.DictWriter(cf, fieldnames=columns)
+#     writer.writeheader()
+#     row_2 = {'name': 'Steve', 'age': 30}
+#     writer.writerow(row_2)
+#==================================
 
 file_name = 'csv_lesson_8_headers.csv'      # todo 'How to create headers to the file'
 csv_file_name = file_path + file_name
@@ -200,13 +218,25 @@ csv_file_name = file_path + file_name
 user_name_list = [
     ['Kate', 35],
     ['Alex', 26],
-    ['Pavel', 37]
+    ['Pavel', 40]
+]
+
+users_dict = [
+    {'name': 'Maggy', 'age': 22},
+    {'name': 'Roman', 'age': 26},
+    {'name': 'Ben', 'age': 36}
 ]
 
 second_user_list = []
-with open(csv_file_name, 'w') as cf:       # todo 'How to add headers to the file'
+# with open(csv_file_name, 'w') as cf:       # todo 'How to add headers to the file'
+#     columns = ['name', 'age']
+#     writer = csv.DictWriter(cf, fieldnames=columns)
+#     writer.writeheader()
+#     row_2 = {'name': 'Steve', 'age': 37}
+#     writer.writerow(row_2)
+#
+
+with open(csv_file_name, 'a') as csv_f:
     columns = ['name', 'age']
-    writer = csv.DictWriter(cf, fieldnames=columns)
-    writer.writeheader()
-    row_2 = {'name': 'Steve', 'age': 37}
-    writer.writerow(row_2)
+    writer = csv.DictWriter(csv_f, fieldnames=columns)
+    writer.writerows(users_dict)
