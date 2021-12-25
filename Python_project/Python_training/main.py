@@ -212,7 +212,7 @@ import csv
 #     writer.writerow(row_2)
 #==================================
 
-file_name = 'csv_lesson_8_headers.csv'      # todo 'How to create headers to the file'
+file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add data (dict) to the file'
 csv_file_name = file_path + file_name
 
 user_name_list = [
@@ -224,19 +224,17 @@ user_name_list = [
 users_dict = [
     {'name': 'Maggy', 'age': 22},
     {'name': 'Roman', 'age': 26},
-    {'name': 'Ben', 'age': 36}
+    {'name': 'Ben', 'age': 34}
 ]
 
 second_user_list = []
-# with open(csv_file_name, 'w') as cf:       # todo 'How to add headers to the file'
-#     columns = ['name', 'age']
-#     writer = csv.DictWriter(cf, fieldnames=columns)
-#     writer.writeheader()
-#     row_2 = {'name': 'Steve', 'age': 37}
-#     writer.writerow(row_2)
 #
+# with open(csv_file_name, 'a') as csv_f:
+#     columns = ['name', 'age']
+#     writer = csv.DictWriter(csv_f, fieldnames=columns)
+#     writer.writerows(users_dict)
 
-with open(csv_file_name, 'a') as csv_f:
-    columns = ['name', 'age']
-    writer = csv.DictWriter(csv_f, fieldnames=columns)
-    writer.writerows(users_dict)
+
+with open(csv_file_name, 'r') as csv_f:     # todo 'How to read the csv file'
+    reader = csv.DictReader(csv_f)
+    line_count = 0
