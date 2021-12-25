@@ -120,13 +120,13 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 #
 #     txt_file.write(full_name)
 
-names_list = ['Pavel', 'Alex', 'Julia', 'Sam']
+# names_list = ['Pavel', 'Alex', 'Julia', 'Sam']
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (for)'
 #     for i in names_list:
 #         txt_file.write(i)
 #         txt_file.write('\n')
 
-age_list = ['28', '35', '48', '55']
+# age_list = ['28', '35', '48', '55']
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to add data to a file (join)'
 #     txt_file.write('\n'.join(age_list))
 
@@ -238,3 +238,9 @@ second_user_list = []
 with open(csv_file_name, 'r') as csv_f:     # todo 'How to read the csv file'
     reader = csv.DictReader(csv_f)
     line_count = 0
+    age_list = []
+    for row in reader:
+        print(line_count, row['name'], row['age'])
+        age_list.append(int(row['age']))
+        line_count += 1
+    print(age_list)
