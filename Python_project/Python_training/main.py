@@ -196,14 +196,7 @@ import csv
 #===================================================
 # file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add headers to the file'
 # csv_file_name = file_path + file_name
-#
-# user_name_list = [
-#     ['Kate', 35],
-#     ['Alex', 26],
-#     ['Pavel', 37]
-# ]
-#
-# second_user_list = []
+# # second_user_list = []
 # with open(csv_file_name, 'w') as cf:
 #     columns = ['name', 'age']
 #     writer = csv.DictWriter(cf, fieldnames=columns)
@@ -227,12 +220,10 @@ users_dict = [
     {'name': 'Ben', 'age': 34}
 ]
 
-second_user_list = []
-#
-# with open(csv_file_name, 'a') as csv_f:
-#     columns = ['name', 'age']
-#     writer = csv.DictWriter(csv_f, fieldnames=columns)
-#     writer.writerows(users_dict)
+with open(csv_file_name, 'a') as csv_f:
+    columns = ['name', 'age']
+    writer = csv.DictWriter(csv_f, fieldnames=columns)
+    writer.writerows(users_dict)
 
 
 with open(csv_file_name, 'r') as csv_f:     # todo 'How to read the csv file'
