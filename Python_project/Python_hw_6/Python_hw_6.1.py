@@ -13,18 +13,35 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_hw_6/'
 #
 
 import names
-f_3 = open('names.csv', 'w')      # todo 3
-user_names = []
+# f_3 = open('names.csv', 'w')      # todo 3
+# user_names = []
+#
+# with open('names.csv', 'w') as names:
+#     for i in range(0, 100):
+#         names_f = []
+#         name_gen = names.get_full_name()
+#         names_f.append(name_gen)
+#         user_names.append(names_f)
+#
+#     writer = csv.writer(f_3)
+#     writer.writerows(user_names)
+#
+# for ii in user_names:
+#     print(ii)
 
-with open('names.csv', 'w') as names.csv:
+
+f_4 = open('emails.csv', 'w')      # todo 3
+user_emails = []
+
+with open('emails.csv', 'w') as emails:
     for i in range(0, 100):
-        names_f = []
-        name_gen = names.get_full_name()
-        names_f.append(name_gen)
-        user_names.append(names_f)
+        emails_f = []
+        # name_gen = names.get_full_name()
+        # emails_f.append(name_gen)
+        # user_emails.append(emails_f)
 
-    writer = csv.writer(f_3)
-    writer.writerows(user_names)
+    writer = csv.writer(f_4)
+    writer.writerows(user_emails)
 
-for ii in user_names:
+for ii in user_emails:
     print(ii)
