@@ -96,7 +96,7 @@ import names
 #=====================================================================================================================
 
 file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'     # todo 'How to create a path to the file'
-# file_name = 'test.txt'
+# file_name = 'test.txt'                                                             # todo (f = open('test.txt', 'w')
 # file_path_name = file_path + file_name
 
 # with open(file_path_name, 'w') as txt_file:     # todo 'How to write data to a file'
