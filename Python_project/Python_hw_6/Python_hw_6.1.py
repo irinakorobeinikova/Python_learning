@@ -29,16 +29,20 @@ import names
 # for ii in user_names:
 #     print(ii)
 
-
+import random
+import string
 f_4 = open('emails.csv', 'w')      # todo 3
 user_emails = []
 
 with open('emails.csv', 'w') as emails:
     for i in range(0, 100):
         emails_f = []
-        # name_gen = names.get_full_name()
-        # emails_f.append(name_gen)
-        # user_emails.append(emails_f)
+        u_emails = (names.get_last_name()).lower() + '.'
+        u_emails += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+        u_emails += random.choice(string.digits) + random.choice(string.digits) + '@gmail.com'
+
+        emails_f.append(u_emails)
+        user_emails.append(emails_f)
 
     writer = csv.writer(f_4)
     writer.writerows(user_emails)
