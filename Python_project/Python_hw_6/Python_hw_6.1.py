@@ -59,9 +59,14 @@ with open('nne.csv', 'w') as nne:
     writer = csv.DictWriter(nne, fieldnames=columns)
     writer.writeheader()
 
-with open('emails.csv', 'w') as emails:
+with open('nne.csv', 'a') as nne:
     for i in range(0, 100):
         data_f_5 = []
+
+
+        user_name = names.get_full_name()
+        data_f_5.append(user_name)
+        user_data.append(data_f_5)
 
         user_email = (names.get_full_name()).lower() + '@gmail.com'
         data_f_5.append(user_email)
