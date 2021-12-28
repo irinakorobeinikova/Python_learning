@@ -63,6 +63,9 @@ with open('nne.csv', 'a') as nne:
     for i in range(0, 100):
         data_f_5 = []
 
+        number = i
+        data_f_5.append(number)
+        user_data.append(data_f_5)
 
         user_name = names.get_full_name()
         data_f_5.append(user_name)
