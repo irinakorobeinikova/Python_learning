@@ -54,4 +54,11 @@ import string
 f_5 = open('nne.csv', 'w')      # todo 5
 user_data = []
 
+with open('nne.csv', 'w') as nne:
+    columns = ['Number', 'Name', 'Email']
+    writer = csv.DictWriter(nne, fieldnames=columns)
+    writer.writeheader()
+#     row_2 = {'name': 'Steve', 'age': 30}
+#     writer.writerow(row_2)
+
 # with open('nne.csv', 'w') as emails:
