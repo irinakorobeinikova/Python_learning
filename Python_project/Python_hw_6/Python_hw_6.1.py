@@ -54,22 +54,15 @@ import string
 f_5 = open('nne.csv', 'w')      # todo 5
 user_data = []
 
-with open('nne.csv', 'w') as nne:
-    columns = ['Number', 'Name', 'Email']
-    writer = csv.DictWriter(nne, fieldnames=columns)
-    writer.writeheader()
-
 with open('nne.csv', 'a') as nne:
     for i in range(0, 100):
         data_f_5 = []
 
         number = i
         data_f_5.append(number)
-        user_data.append(data_f_5)
 
         user_name = names.get_full_name()
         data_f_5.append(user_name)
-        user_data.append(data_f_5)
 
         user_email = (names.get_full_name()).lower() + '@gmail.com'
         data_f_5.append(user_email)
@@ -77,3 +70,8 @@ with open('nne.csv', 'a') as nne:
 
     writer = csv.writer(f_5)
     writer.writerows(user_data)
+
+with open('nne.csv', 'a') as nne:
+    columns = ['Number', 'Name', 'Email']
+    writer = csv.DictWriter(nne, fieldnames=columns)
+    writer.writeheader()
