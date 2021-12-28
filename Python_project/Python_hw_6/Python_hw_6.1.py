@@ -31,21 +31,27 @@ import names
 
 import random
 import string
-f_4 = open('emails.csv', 'w')      # todo 3
-user_emails = []
+# f_4 = open('emails.csv', 'w')      # todo 4
+# user_emails = []
 
-with open('emails.csv', 'w') as emails:
-    for i in range(0, 100):
-        emails_f = []
-        u_emails = (names.get_last_name()).lower() + '.'
-        u_emails += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
-        u_emails += random.choice(string.digits) + random.choice(string.digits) + '@gmail.com'
+# with open('emails.csv', 'w') as emails:
+#     for i in range(0, 100):
+#         emails_f = []
+#         u_emails = (names.get_last_name()).lower() + '.'
+#         u_emails += random.choice(string.ascii_lowercase) + random.choice(string.ascii_lowercase)
+#         u_emails += random.choice(string.digits) + random.choice(string.digits) + '@gmail.com'
+#
+#         emails_f.append(u_emails)
+#         user_emails.append(emails_f)
+#
+#     writer = csv.writer(f_4)
+#     writer.writerows(user_emails)
+#
+# for ii in user_emails:
+#     print(ii)
+#
+#
+f_5 = open('nne.csv', 'w')      # todo 5
+user_data = []
 
-        emails_f.append(u_emails)
-        user_emails.append(emails_f)
-
-    writer = csv.writer(f_4)
-    writer.writerows(user_emails)
-
-for ii in user_emails:
-    print(ii)
+# with open('nne.csv', 'w') as emails:
