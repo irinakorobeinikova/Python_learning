@@ -6,6 +6,8 @@ dict_item = {
 }
 # print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
 
-x = dict_item.get(3).get('salary')        # todo (get item from dict)
-print(x)
+# x = dict_item.get(3).get('salary')        # todo (get item from dict)
+# print(x)
 
+dict_item['city'] = 'Lviv'      # todo (add item to dict)
+print(dict_item)
