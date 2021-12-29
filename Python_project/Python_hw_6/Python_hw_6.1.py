@@ -61,10 +61,12 @@ with open('nne.csv', 'a') as nne:
         number = i
         data_f_5.append(number)
 
-        user_name = names.get_full_name()
+        first_name = names.get_first_name()
+        last_name = names.get_last_name()
+        user_name = first_name + ' ' + last_name
         data_f_5.append(user_name)
 
-        user_email = (names.get_full_name()).lower() + '@gmail.com'
+        user_email = (first_name + last_name).lower() + '@gmail.com'
         data_f_5.append(user_email)
         user_data.append(data_f_5)
 
