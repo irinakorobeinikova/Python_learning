@@ -12,5 +12,9 @@ dict_item = {
 # dict_item['city'] = 'Lviv'      # todo (add item to the dict)
 # print(dict_item)
 
-dict_item[1] = 'Georgy'      # todo (change item at the dict)
+# dict_item[1] = 'Georgy'      # todo (change item at the dict)
+# print(dict_item)
+
+del dict_item[2]      # todo (delete item from the dict)
 print(dict_item)
+
