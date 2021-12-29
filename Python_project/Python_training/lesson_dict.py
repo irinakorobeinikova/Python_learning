@@ -15,6 +15,9 @@ dict_item = {
 # dict_item[1] = 'Georgy'      # todo (change item at the dict)
 # print(dict_item)
 
-del dict_item[2]      # todo (delete item from the dict)
+# del dict_item[2]      # todo (delete item from the dict)
+# print(dict_item)
+
+dict_item.popitem()      # todo (delete the last item from the dict)
 print(dict_item)
 
