@@ -4,11 +4,11 @@ dict_item = {
     2: [1, 2, 3, 4, 5],
     3: {'name': 'Vadim', 'age': 32, 'salary': 10000}
 }
-# print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
-
+print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
+#
 # x = dict_item.get(3).get('salary')        # todo (get item from the dict)
 # print(x)
-
+#
 # dict_item['city'] = 'Lviv'      # todo (add item to the dict)
 # print(dict_item)
 
@@ -21,5 +21,8 @@ dict_item = {
 # dict_item.popitem()      # todo (delete the last item from the dict)
 # print(dict_item)
 
-dict_item.clear()
-print(dict_item)
+# dict_item.clear()     # todo (delete the dict)
+# print(dict_item)
+
+dict_item['city'] = 'Lviv'      # todo (get the lenth of the dict)
+print(dict_item, len(dict_item))
