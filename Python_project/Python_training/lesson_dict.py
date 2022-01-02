@@ -37,3 +37,11 @@ print(dict_item)
 # dict_4 = dict_item.copy()
 # print('dict_4', dict_4)
 
+# for key, value in dict_item.items():        # todo (create a for loop of the dict)
+#     print('key:', key, 'value:', value)
+
+# for key in dict_item:
+#     print('key:', key)
+
+for key in dict_item:
+    print('value:', dict_item[key])
