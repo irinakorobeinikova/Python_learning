@@ -4,12 +4,13 @@ dict_item = {
     2: [1, 2, 3, 4, 5],
     3: {'name': 'Vadim', 'age': 32, 'salary': 10000}
 }
-print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
+print(dict_item)
+# print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
 #
 # x = dict_item.get(3).get('salary')        # todo (get item from the dict)
 # print(x)
 #
-# dict_item['city'] = 'Lviv'      # todo (add item to the dict)
+# dict_item['city'] = 'Moscow'      # todo (add item to the dict)
 # print(dict_item)
 
 # dict_item[1] = 'Georgy'      # todo (change item at the dict)
@@ -23,6 +24,16 @@ print(3, ':', dict_item[3]['name'], dict_item[3] ['age'])
 
 # dict_item.clear()     # todo (delete the dict)
 # print(dict_item)
+#
+# dict_item['city'] = 'Moscow'      # todo (get the length of the dict)
+# print(dict_item, len(dict_item))
 
-dict_item['city'] = 'Lviv'      # todo (get the lenth of the dict)
-print(dict_item, len(dict_item))
+# dict_2 = dict_item      # todo (create a copy of the dict)
+# print('dict_2', dict_2)
+# dict_2['country'] = 'Russia'
+# print('dict_2', dict_2)
+# dict_3 = dict_item
+# print('dict_3', dict_3)
+# dict_4 = dict_item.copy()
+# print('dict_4', dict_4)
+
