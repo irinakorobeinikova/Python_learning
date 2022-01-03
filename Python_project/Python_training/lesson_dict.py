@@ -1,3 +1,5 @@
+import json
+
 dict_item = {}      # todo (add different type of the dict)
 dict_item = {
     1: 'Julia',
@@ -43,5 +45,14 @@ print(dict_item)
 # for key in dict_item:
 #     print('key:', key)
 
-for key in dict_item:
-    print('value:', dict_item[key])
+# for key in dict_item:
+#     print('value:', dict_item[key])
+
+# names = ('Vadim', 'Inna', 'Sam')      # todo (create the dict in another way)
+# salary = 10000
+# dd = dict.fromkeys(names, salary)
+# print(dd)
+
+
+
+
