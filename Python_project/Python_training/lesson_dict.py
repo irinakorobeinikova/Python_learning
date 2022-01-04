@@ -55,7 +55,10 @@ print(dict_item)
 
 file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_title = 'Python_json_lesson.json'
-full_name = file_path + file_title      # todo (add different type of the dict)
+full_name = file_path + file_title      # todo (create a json_file)
+
+with open(full_name, 'w') as jf:        # todo (create a json_file from the dict)
+    json.dump(dict_item, jf)
 
 
 
