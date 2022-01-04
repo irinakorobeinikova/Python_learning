@@ -53,6 +53,10 @@ print(dict_item)
 # dd = dict.fromkeys(names, salary)
 # print(dd)
 
+file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
+file_title = 'Python_json_lesson.json'
+full_name = file_path + file_title      # todo (add different type of the dict)
+
 
 
 
