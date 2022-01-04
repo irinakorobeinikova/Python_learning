@@ -57,8 +57,15 @@ file_path = 'C:/Users/irina/git/Python_learning/Python_project/Python_training/'
 file_title = 'Python_json_lesson.json'
 full_name = file_path + file_title      # todo (create a json_file)
 
-with open(full_name, 'w') as jf:        # todo (create a json_file from the dict)
+with open(full_name, 'w') as jf:        # todo (create a json_file of the dict)
     json.dump(dict_item, jf)
+
+with open(full_name, 'r') as jf:        # todo (read a json_file of the dict)
+    json_data = jf.read()
+    json_object = json.loads(json_data)
+    print('json_data', json_data, type(json_data))
+    print('json_object', json_object, type(json_object))
+
 
 
 
