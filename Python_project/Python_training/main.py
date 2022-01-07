@@ -246,4 +246,8 @@ def amount():
 print(amount())
 
 path = "C:/Users/irina/git/Python_learning/Python_project/Python_training/text_file.txt"
+with open(path, 'w') as p:
+    writer = p.writelines('\n'.join(asd))       # todo (add the list to the file)
+
+
 
