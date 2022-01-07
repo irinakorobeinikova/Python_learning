@@ -205,33 +205,43 @@ import csv
 #     writer.writerow(row_2)
 #==================================
 
-file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add data (dict) to the file'
-csv_file_name = file_path + file_name
+# file_name = 'csv_lesson_8_headers.csv'      # todo 'How to add data (dict) to the file'
+# csv_file_name = file_path + file_name
+#
+# user_name_list = [
+#     ['Kate', 35],
+#     ['Alex', 26],
+#     ['Pavel', 40]
+# ]
+#
+# users_dict = [
+#     {'name': 'Maggy', 'age': 22},
+#     {'name': 'Roman', 'age': 26},
+#     {'name': 'Ben', 'age': 34}
+# ]
+#
+# with open(csv_file_name, 'a') as csv_f:
+#     columns = ['name', 'age']
+#     writer = csv.DictWriter(csv_f, fieldnames=columns)
+#     writer.writerows(users_dict)
+#
+#
+# with open(csv_file_name, 'r') as csv_f:     # todo 'How to read the csv file'
+#     reader = csv.DictReader(csv_f)
+#     line_count = 0
+#     age_list = []
+#     for row in reader:
+#         print(line_count, row['name'], row['age'])
+#         age_list.append(int(row['age']))
+#         line_count += 1
+#     print(age_list)
 
-user_name_list = [
-    ['Kate', 35],
-    ['Alex', 26],
-    ['Pavel', 40]
-]
+asd = []        # todo (create a function)
+def amount():
+    word = input('Word:')
+    how_many = int(input('Repeat:'))
+    for i in range(how_many):
+        asd.append(word + str(i))
+    return asd
+print(amount())
 
-users_dict = [
-    {'name': 'Maggy', 'age': 22},
-    {'name': 'Roman', 'age': 26},
-    {'name': 'Ben', 'age': 34}
-]
-
-with open(csv_file_name, 'a') as csv_f:
-    columns = ['name', 'age']
-    writer = csv.DictWriter(csv_f, fieldnames=columns)
-    writer.writerows(users_dict)
-
-
-with open(csv_file_name, 'r') as csv_f:     # todo 'How to read the csv file'
-    reader = csv.DictReader(csv_f)
-    line_count = 0
-    age_list = []
-    for row in reader:
-        print(line_count, row['name'], row['age'])
-        age_list.append(int(row['age']))
-        line_count += 1
-    print(age_list)

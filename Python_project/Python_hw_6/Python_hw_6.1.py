@@ -70,13 +70,13 @@ import string
 #         data_f_5.append(user_email)
 #         user_data.append(data_f_5)
 #
-#     writer = csv.writer(f_5)
+#     writer = csv.writer(f_5, lineterminator='\n')
 #     writer.writerows(user_data)
 #
 # with open('nne.csv', 'a') as nne:
 #     columns = ['Number', 'Name', 'Email']
 #     writer = csv.DictWriter(nne, fieldnames=columns)
 #     writer.writeheader()
-
+#
 
 f_6 = open('combo.csv', 'w')      # todo 11
