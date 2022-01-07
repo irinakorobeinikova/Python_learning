@@ -245,3 +245,5 @@ def amount():
     return asd
 print(amount())
 
+path = "C:/Users/irina/git/Python_learning/Python_project/Python_training/text_file.txt"
+
