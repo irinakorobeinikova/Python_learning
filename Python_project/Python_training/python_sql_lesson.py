@@ -14,13 +14,24 @@ cursor = conn.cursor()
 #         # print('iq =', i)
 #         print('iq =', i[0], 'salary =', i[1])
 
-for i in range(0, 10):      # todo (insert to public.salary_2)
+# for i in range(0, 10):      # todo (insert data into public.salary_2)
+#     if conn:
+#         # print('Connection Insert qa_ddl_24_140')
+#         salary = 4000 + i * 100
+#         insert_query = 'insert info public.salary_2(monthly_salary) values (' + str(salary) + ')'
+#         print(insert_query)
+#         # cursor.execute(insert_query)
+#         # conn.commit()
+# cursor.close()
+
+
+for i in range(0, 10):      # todo (insert data (with "") into public.roles_2)
     if conn:
-        print('Connection Insert qa_ddl_24_140')
-        salary = 4000 + i * 100
-        insert_query = 'insert info public.salary_2(monthly_salary)' \ 'values (' + str(salary) + ')'
-        cursor.execute(insert_query)
-        conn.commit()
+        role_name = "'Python_" + str(i) + "'"
+        insert_query = 'insert info public.roles_2(role_title) values (' + str(role_name) + ')'
+        print('insert_query', insert_query)
+        # cursor.execute(insert_query)
+        # conn.commit()
 cursor.close()
 
 
