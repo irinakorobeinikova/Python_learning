@@ -24,15 +24,15 @@ cursor = conn.cursor()
 #         # conn.commit()
 # cursor.close()
 
-
-for i in range(0, 10):      # todo (insert data (with "") into public.roles_2)
-    if conn:
-        role_name = "'Python_" + str(i) + "'"
-        insert_query = 'insert info public.roles_2(role_title) values (' + str(role_name) + ')'
-        print('insert_query', insert_query)
-        # cursor.execute(insert_query)
-        # conn.commit()
-cursor.close()
+#
+# for i in range(0, 10):      # todo (insert data (with "") into public.roles_2)
+#     if conn:
+#         role_name = "'Python_" + str(i) + "'"
+#         insert_query = 'insert info public.roles_2(role_title) values (' + str(role_name) + ')'
+#         print('insert_query', insert_query)
+#         # cursor.execute(insert_query)
+#         # conn.commit()
+# cursor.close()
 
 
 
