@@ -79,4 +79,4 @@ import string
 #     writer.writeheader()
 #
 
-f_6 = open('combo.csv', 'w')      # todo 11
+# f_6 = open('combo.csv', 'w')      # todo 11
